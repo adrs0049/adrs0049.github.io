@@ -107,13 +107,13 @@ Languages
 My own software packages
 =======
 
-* (i)PDE toolbox consisting of: (1) Finite Volume solver, (2) spectral collocation methods (Fourier series, and Gegenbauer polynomials), (3) symbolic linearization, and (4) continuation support (bifurcation analysis).  [Link to repository coming soon](https://github.com/adrs0049)
+* (i)PDE toolbox consisting of: (1) Finite Volume solver, (2) spectral collocation methods (Fourier series, and Gegenbauer polynomials), (3) symbolic linearization, and (4) continuation support (bifurcation analysis).  [Link to repository coming soon.](https://github.com/adrs0049)
 
-* Modular hybrid agent-based PDE model of one dimensional cells with detailed intra-cellular signalling (python with Fortran components). [Link to repository coming soon](https://github.com/adrs0049)
+* Modular hybrid agent-based PDE model of one dimensional cells with detailed intra-cellular signalling (python with Fortran components). [Link to repository coming soon.](https://github.com/adrs0049)
 
 * TiSim developer of a novel model for deformable cells based on colloidal physics, written in cpp. Supporting setup and analysis code in python.
 
-* Gillespie-SSA framework for non-local space-jump process (C$^{++}$ and python). [Link to repository](https://github.com/adrs0049/AdhesionRandomWalk)
+* Gillespie-SSA framework for non-local space-jump process (C$^{++}$ and python). [Link to repository.](https://github.com/adrs0049/AdhesionRandomWalk)
 
 Computer skills
 =======
