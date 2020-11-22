@@ -27,6 +27,9 @@ model and non-local chemotaxis models. Finally, we use random walk
 simulations to confirm that the corresponding continuum model
 represents the mean field behaviour of the stochastic random walk.
 
+**Code:**
+* Gillespie-SSA framework used for particle simulations. [Link to repository.](https://github.com/adrs0049/AdhesionRandomWalk)
+
 This publication is part of the [Non-local models of cell-cell adhesion project.](/portfolio/2018-01-01-adhesion)
 
 [Download paper here](https://doi.org/10.1007/s00285-017-1144-3)

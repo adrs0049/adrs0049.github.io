@@ -2,7 +2,7 @@
 title: "Barnacles vs bullies: modelling biocontrol of the invasive European green crab using a castrating barnacle parasite"
 collection: publications
 permalink: /publication/2017-02-14-barnacles-bullies
-excerpt: 'This paper investigates the suitability of a castrating barnacle parasite for control of the european green crab.'
+excerpt: 'This paper investigates the suitability of a castrating barnacle parasite for control of the European green crab.'
 date: 2017-02-14
 venue: 'Theortical Ecology'
 paperurl: 'http://dx.doi.org/10.1007/s12080-017-0332-5'

@@ -2,7 +2,7 @@
 title: "Off-Lattice Agent-Based Models for Cell and Tumor Growth: Numerical Methods, Implementation, and Applications"
 collection: publications
 permalink: /publication/2017-10-10-off-lattice-models
-excerpt: 'Book contribution about off-lattice based models for biological processes and tissues'
+excerpt: ' Lattice-free agent-based models (ABMs) of multicellular systems are mathematical models in which each cell is represented individually and can move continuously in space. In this chapter we present an overview of the methodology of ABMs that are used to simulate mechanical and physiological phenomena in cells and tissues.'
 date: 2017-10-11
 venue: 'Numerical Methods and Advanced Simulation in Biomechanics and Biological Processes'
 paperurl: 'http://doi.org/10.1016/B978-0-12-811718-7.00014-9'
@@ -24,4 +24,3 @@ the different models.
 This publication is part of the [Physics-based models of collective cell migration.](/portfolio/2019-02-01-phy-models)
 
 [Download paper here](https://doi.org/10.1016/B978-0-12-811718-7.00014-9)
-
