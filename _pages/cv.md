@@ -16,7 +16,7 @@ Education
 * B.S. in Physics and Mathematics with Distinction, University of Alberta, 2012
 
 Other-Education
-======
+-------
 * [Math Instructional Skills Workshop (ISW)](https://www.math.ubc.ca/~fsl/ISW.html), UBC, 2018.
 * [Graduate Teaching and Learning Program Level 3](https://www.ualberta.ca/graduate-studies/professional-development/graduate-teaching-and-learning-program/gtl-level3), University of Alberta, 2017.
 * Industry Canada Basic(+) Certificate of proficiency in Amateur Radio, 2011.
