@@ -19,6 +19,7 @@ twist:
   1. Cells are not simply point-like particles but have spatial extent;
   2. Interactions between cells go beyond simple attraction-repulsion; and
   3. Cells "live" in a regime where friction dominates over inertia.
+
 Examples include: wound healing, embryogenesis (normal development), the immune
 response, and cancer metastasis. I use mathematical modelling and
 computational biology to uncover the *universal principles* how biological,
