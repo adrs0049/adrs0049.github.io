@@ -39,7 +39,9 @@ computational framework** is needed. I refer to such models as cell-based models
 Updates
 ------------
 
-<center><style> img { max-width: 50%; height: auto; } </style><a href="/publication/2021-06-10-adhesion"><img src='/images/Buttenschoen-cover.png'></a></center><br/>
+- Our book on bifurcations and symmetries in non-local cell adhesion models is out!
+
+<center><style> img { max-width: 25%; height: auto; } </style><a href="https://www.springer.com/gp/book/9783030671105"><img src='/images/Buttenschoen-cover.png'></a></center><br/>
 
 Current Projects
 ----------
