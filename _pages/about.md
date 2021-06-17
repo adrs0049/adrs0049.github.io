@@ -43,6 +43,8 @@ Updates
 
 <center><a href="https://www.springer.com/gp/book/9783030671105"><img src='/images/Buttenschoen-cover.png' width="25%" height="auto"></a></center><br/>
 
+- Our review on computational and mathematical models of cell migration is [published](https://doi.org/10.1371/journal.pcbi.1008411).
+
 Current Projects
 ----------
 
