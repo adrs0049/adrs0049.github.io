@@ -41,7 +41,7 @@ Updates
 
 - Our book on bifurcations and symmetries in non-local cell adhesion models is out!
 
-<center><style> img { max-width: 25%; height: auto; } </style><a href="https://www.springer.com/gp/book/9783030671105"><img src='/images/Buttenschoen-cover.png'></a></center><br/>
+<center><a href="https://www.springer.com/gp/book/9783030671105"><img src='/images/Buttenschoen-cover.png' width="25%" height="auto"></a></center><br/>
 
 Current Projects
 ----------
