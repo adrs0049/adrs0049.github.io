@@ -9,6 +9,8 @@ date: 2018-01-02
 location: "Vancouver, Canada"
 ---
 
+* **Fall 2021:** BMEG371 (Transport Phenomena within Cells and Tissues). Part of the biomedical engineering program.
+
 * **Fall 2020:** MATH256 (Differential Equations) for engineering students.
 
 * **Fall 2018, 2019:** MATH102 (Differential Calculus for the life sciences), as
