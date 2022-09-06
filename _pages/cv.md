@@ -24,8 +24,7 @@ Other-Education
 
 Research experience
 ======
-* 2022 - present: Assistant Professor
-  * [University of Massachusetts Amherst](umass.edu)
+* 2022 - present: Assistant Professor [University of Massachusetts Amherst](umass.edu)
 
 * 2018 - 2022: [NSERC](https://www.nserc-crsng.gc.ca/index_eng.asp) Post-doctoral Fellow
   * [University of British Columbia](https://www.math.ubc.ca/)
