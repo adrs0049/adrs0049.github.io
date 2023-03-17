@@ -10,3 +10,4 @@ location: "Amherst, MA, USA"
 ---
 
 * **Fall 2022:** MATH551 (Introduction to Scientific Computing).
+* **Spring 2023:** MATH552 (Scientific Computing II).
