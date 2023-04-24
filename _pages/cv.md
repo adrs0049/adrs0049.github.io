@@ -109,7 +109,7 @@ Languages
 My own software packages
 =======
 
-* (i)PDE toolbox consisting of: (1) Finite Volume solver, (2) spectral collocation methods (Fourier series, and Gegenbauer polynomials), (3) symbolic linearization, and (4) continuation support (bifurcation analysis).  [Link to repository coming soon.](https://github.com/adrs0049)
+* (i)PDE toolbox consisting of: (1) Finite Volume solver, (2) spectral collocation methods (Fourier series, and Gegenbauer polynomials), (3) symbolic linearization, and (4) continuation support (bifurcation analysis).  [Link to repository.](https://github.com/adrs0049/funpy)
 
 * Modular hybrid agent-based PDE model of one dimensional cells with detailed intra-cellular signalling (python with Fortran components). [Link to repository coming soon.](https://github.com/adrs0049)
 
