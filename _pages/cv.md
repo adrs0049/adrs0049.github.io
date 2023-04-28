@@ -75,14 +75,18 @@ Approaches" (19w5080).
 Conference organization
 =======
 
+* [Data-driven, modeling, and topological techniques in cell and developmental biology](https://2023.smb.org/CDEV/CDEV-1-MS03.html). July 2023. Minisymposium. 
+Society of Mathematical Biology Annual meeting, online.
+  * Co-organizer: [Alexandria Volkening](https://www.alexandriavolkening.com/), [Veronica Ciocanel](https://services.math.duke.edu/~ciocanel/).
+
 * [Shapes, patterns, and forces in developmental biology](https://smb2020.org/tuesday/#MS2). August 2020. Minisymposium. Society of Mathematical Biology Annual meeting, online.
-  * Co-organizer: Alex Fletcher.
+  * Co-organizer: [Alex Fletcher](https://alexfletcher.github.io/about/).
 
 * [Understanding development through theory and experiment](https://smb2020.org/wednesday/#MS2). August 2020. Minisymposium. Society of Mathematical Biology Annual meeting, online.
-  * Co-organizer: Alex Fletcher.
+  * Co-organizer: [Alex Fletcher](https://alexfletcher.github.io/about/).
 
 * Shapes, patterns, and forces in developmental biology. [Part I](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=68544), [Part 2](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=68545). June 2020. Minisymposium. SIAM Conference on the Life Sciences. Postponed due to Covid-19.
-  * Co-organizer: Tracy Stepien.
+  * Co-organizer: [Tracy Stepien](https://people.clas.ufl.edu/tstepien/).
 
 * [Contemporary mathematical approaches in developmental biology](https://www.smb.org/wp-content/uploads/2019/01/Subgroup_DevelopmentalBiology_March2019.pdf). July 2019. Minisymposium. Society of Mathematical Biology Annual Meeting, Montreal, Canada.
   * Co-organizer: Alex Fletcher.
