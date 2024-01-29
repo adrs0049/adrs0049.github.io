@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate courses"
 permalink: /teaching/instructor-linalg
 venue: "University of Massachusetts Amherst, Department of Mathematics and Statistics"
-excerpt: 'Instructor at University of Massachusetts Amherst.'
+excerpt: 'Applied Linear Algebra.'
 date: 2024-02-01
 location: "Amherst, MA, USA"
 ---
