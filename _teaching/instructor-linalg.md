@@ -5,7 +5,7 @@ type: "Undergraduate course"
 permalink: /teaching/linalg
 venue: "University of Massachusetts Amherst, Department of Mathematics and Statistics"
 excerpt: 'A second applied course in linear algebra.'
-date: 2024-02-01
+date: 2024-01-28
 location: "Amherst, MA, USA"
 ---
 
