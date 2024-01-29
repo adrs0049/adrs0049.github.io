@@ -75,8 +75,8 @@ Approaches" (19w5080).
 Conference organization
 =======
 
-* [Data-driven, modeling, and topological techniques in cell and developmental biology](https://2023.smb.org/CDEV/CDEV-1-MS03.html). July 2023. Minisymposium. 
-Society of Mathematical Biology Annual meeting, online.
+* [Data-driven, modeling, and topological techniques in cell and developmental biology](https://2023.smb.org/CDEV/CDEV-1-MS03.html). July 2023. Minisymposium.
+Society of Mathematical Biology Annual meeting, OSU, Columbus, Ohio.
   * Co-organizer: [Alexandria Volkening](https://www.alexandriavolkening.com/), [Veronica Ciocanel](https://services.math.duke.edu/~ciocanel/).
 
 * [Shapes, patterns, and forces in developmental biology](https://smb2020.org/tuesday/#MS2). August 2020. Minisymposium. Society of Mathematical Biology Annual meeting, online.
