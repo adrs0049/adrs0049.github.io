@@ -5,7 +5,7 @@ type: "Undergraduate courses"
 permalink: /teaching/instructor-umass
 venue: "University of Massachusetts Amherst, Department of Mathematics and Statistics"
 excerpt: 'Instructor at University of Massachusetts Amherst.'
-date: 2024-01-01
+date: 2022-09-01
 location: "Amherst, MA, USA"
 ---
 
