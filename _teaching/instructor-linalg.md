@@ -2,7 +2,7 @@
 title: "Applied Linear Algebra (MATH 545)"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/linalg
+permalink: /teaching/instructor-linalg
 venue: "University of Massachusetts Amherst, Department of Mathematics and Statistics"
 excerpt: 'A second applied course in linear algebra.'
 date: 2024-01-28
