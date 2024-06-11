@@ -39,6 +39,8 @@ computational framework** is needed. I refer to such models as cell-based models
 Updates
 ------------
 
+- We [posted](https://arxiv.org/abs/2406.02846) a pre-print on cell cluster instability for robust cluster formation.
+
 - Our book on bifurcations and symmetries in non-local cell adhesion models is out!
 
 <center><a href="https://www.springer.com/gp/book/9783030671105"><img src='/images/Buttenschoen-cover.png' width="25%" height="auto"></a></center><br/>
