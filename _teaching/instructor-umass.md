@@ -11,5 +11,8 @@ location: "Amherst, MA, USA"
 
 * **Fall 2022:** MATH551 (Introduction to Scientific Computing).
 * **Spring 2023:** MATH552 (Scientific Computing II).
-* **Fall 2023:** MATH690CB (Mathematical (Cell) Biology).
+* **Fall 2023:** [MATH690CB (Mathematical (Cell) Biology)](/teaching/math690).
 * **Spring 2024:** [MATH545 (Applied Linear Algebra)](https://www.buttenschoen.ca/MATH545).
+* **Fall 2024:** [MATH545 (Applied Linear Algebra)](https://www.buttenschoen.ca/MATH545).
+* **Spring 2025:** [MATH 725 (Applied) Functional Analysis](/teaching/math725).
+
