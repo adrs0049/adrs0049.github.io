@@ -39,6 +39,8 @@ computational framework** is needed. I refer to such models as cell-based models
 Updates
 ------------
 
+- Together with the lab's first REU summer student [Justin Steinman](https://nubdotdev.github.io/) we [posted](https://arxiv.org/abs/2410.04512) our **first** lab pre-print.
+
 - We [posted](https://arxiv.org/abs/2406.02846) a pre-print on cell cluster instability for robust cluster formation.
 
 - Our book on bifurcations and symmetries in non-local cell adhesion models is out!
