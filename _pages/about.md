@@ -39,7 +39,7 @@ computational framework** is needed. I refer to such models as cell-based models
 Updates
 ------------
 
-- Together with the lab's first REU summer student [Justin Steinman](https://nubdotdev.github.io/) we [posted](https://arxiv.org/abs/2410.04512) our **first** lab pre-print.
+- Together with the lab's first REU summer student [Justin Steinman](https://nubdotdev.github.io/), we [posted](https://arxiv.org/abs/2410.04512) our **first** lab pre-print.
 
 - We [posted](https://arxiv.org/abs/2406.02846) a pre-print on cell cluster instability for robust cluster formation.
 
@@ -49,10 +49,9 @@ Updates
 
 - Our review on computational and mathematical models of cell migration is [published](https://doi.org/10.1371/journal.pcbi.1008411).
 
+
 Current Projects
 ----------
 
-1. [Non-local models of cell-cell adhesion.](portfolio/2018-01-01-adhesion)
-2. [Modelling of intra-cellular cell decision mechanisms.](portfolio/2019-01-01-cell-mig)
-3. [Physics-based models of collective cell migration.](portfolio/2019-02-01-phy-models)
-4. [Development of mathematical tools for (non-local) reaction-advection-diffusion equations.](portfolio/2020-01-01-theo-work)
+Up-to-date information coming **soon**.
+
