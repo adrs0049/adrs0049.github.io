@@ -109,11 +109,11 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "adrs0061"
+  twitter          :
   vine             :
   weibo            :
   xing             :
-  youtube          : "UCLeNCEzbvO1mbYwc8j5_z6Q"
+  youtube          :
   wikipedia        :
 
 
@@ -183,7 +183,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
     output: true
