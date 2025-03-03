@@ -12,6 +12,7 @@ location: "Amherst, MA, USA"
 
 * Course time: **TBA**
 * Course text: [**Elements of Applied Functional Analysis**](https://www.math.ualberta.ca/~thillen/FA-book-June2023.pdf) by [Thomas Hillen](https://www.math.ualberta.ca/~thillen).
+* Course notes: [**In-progress notes**](https://www.buttenschoen.ca/MATH725).
 
 ## Topics
 
