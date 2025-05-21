@@ -32,6 +32,8 @@ their major, apply critical thinking to complex problems in mathematical
 biology, and engage in collaborative projects addressing real-world biological
 questions.
 
+![image](images/math456_ad.png)
+
 ## Topics
 
 This course introduces mathematical approaches to modeling cellular phenomena,
