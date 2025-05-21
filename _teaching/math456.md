@@ -9,6 +9,7 @@ date: 2025-05-10
 location: "Amherst, MA, USA"
 ---
 
+<br/><img src='/images/math456_ad.png'><br/>
 
 * Course time: **MW 2:30 - 4:00 PM**
 * Course location: **LGRT 206**
@@ -31,8 +32,6 @@ connections between their General Education courses and the focused work in
 their major, apply critical thinking to complex problems in mathematical
 biology, and engage in collaborative projects addressing real-world biological
 questions.
-
-<br/><img src='/images/math456_ad.png'><br/>
 
 ## Topics
 
