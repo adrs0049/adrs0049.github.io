@@ -1,0 +1,38 @@
+<!-- _includes/member-grid.html -->
+{% if include.members %}
+<div class="members-grid">
+  {% for member in include.members %}
+    <div class="member-card {% if member.alumni %}alumni{% endif %} {% if member.placeholder %}placeholder{% endif %}">
+      <div class="member-photo">
+        {% if member.photo %}
+          <img src="{{ member.photo }}" alt="{{ member.name }}">
+        {% else %}
+          <div class="placeholder-photo">
+            {% if member.icon %}
+              <i class="fas fa-{{ member.icon }}"></i>
+            {% else %}
+              <i class="fas fa-user"></i>
+            {% endif %}
+          </div>
+        {% endif %}
+      </div>
+      <div class="member-info">
+        <h4>
+          {% if member.website %}
+            <a href="{{ member.website }}">{{ member.name }}</a>
+          {% else %}
+            {{ member.name }}
+          {% endif %}
+        </h4>
+        <p class="member-title">{{ member.title }}</p>
+        {% if member.research %}
+          <p class="member-research">{{ member.research }}</p>
+        {% endif %}
+        {% if member.current %}
+          <p class="member-current">{{ member.current }}</p>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+{% endif %}
