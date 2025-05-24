@@ -1,16 +1,171 @@
 ---
-layout: archive
-title: "Publications"
-permalink: /publications/
-author_profile: true
+layout: default
 ---
-
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <article class="page publications-page" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
+    {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
+
+    <div class="page__inner-wrap">
+      {% unless page.header.overlay_color or page.header.overlay_image %}
+        <header>
+          {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+        </header>
+      {% endunless %}
+
+      <section class="page__content publications-list" itemprop="text">
+        {{ content }}
+
+        {% if site.author.googlescholar %}
+          <p class="scholar-link">You can also find my articles on <u><a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</u></p>
+        {% endif %}
+
+        <ul class="publication-list">
+          {% for post in site.publications reversed %}
+            <li class="publication-entry">
+              <h3 class="publication-title">
+                {% if post.paperurl %}
+                  <a href="{{ post.paperurl }}" target="_blank">{{ post.title }}</a>
+                {% else %}
+                  {{ post.title }}
+                {% endif %}
+              </h3>
+              {% if post.citation %}
+                <p class="publication-citation">{{ post.citation }}</p>
+              {% endif %}
+              {% if post.paperurl or post.preprinturl %}
+                <div class="publication-links">
+                  {% if post.paperurl %}
+                    <a href="{{ post.paperurl }}" class="pub-link published" target="_blank">
+                      <i class="fas fa-fw fa-file-pdf"></i> Published Version
+                    </a>
+                  {% endif %}
+                  {% if post.preprinturl %}
+                    <a href="{{ post.preprinturl }}" class="pub-link preprint" target="_blank">
+                      <i class="ai ai-arxiv"></i> Pre-print
+                    </a>
+                  {% endif %}
+                </div>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+
+      <footer class="page__meta">
+        {% if site.data.ui-text[site.locale].meta_label %}
+          <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
+        {% endif %}
+        {% include page__taxonomy.html %}
+      </footer>
+
+      {% if page.share %}{% include social-share.html %}{% endif %}
+    </div>
+
+    {% if site.comments.provider and page.comments %}
+      {% include comments.html %}
+    {% endif %}
+  </article>
+</div>
+
+<style>
+/* Publications page specific styling */
+.publications-page .publications-list {
+  max-width: 100%;
+}
+
+.publications-page .scholar-link {
+  margin-bottom: 2em;
+  font-style: italic;
+}
+
+.publications-page .publication-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.publications-page .publication-entry {
+  margin-bottom: 1.5em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #f2f3f3;
+}
+
+.publications-page .publication-entry:last-child {
+  border-bottom: none;
+}
+
+.publications-page .publication-title {
+  font-size: 1.1em;
+  margin: 0 0 0.5em 0;
+  line-height: 1.4;
+}
+
+.publications-page .publication-title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.publications-page .publication-title a:hover {
+  text-decoration: underline;
+  color: #52adc8;
+}
+
+.publications-page .publication-citation {
+  margin: 0;
+  font-size: 0.95em;
+  line-height: 1.5;
+  color: #494e52;
+}
+
+.publications-page .publication-links {
+  margin-top: 0.75em;
+  display: flex;
+  gap: 1.5em;
+  flex-wrap: wrap;
+}
+
+.publications-page .pub-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  font-size: 0.9em;
+  text-decoration: none;
+  color: #52adc8;
+  transition: color 0.2s ease;
+}
+
+.publications-page .pub-link:hover {
+  color: #3d8ea3;
+  text-decoration: underline;
+}
+
+.publications-page .pub-link.published {
+  color: #52adc8;
+}
+
+.publications-page .pub-link.preprint {
+  color: #b31b1b;
+}
+
+.publications-page .pub-link i {
+  font-size: 1.1em;
+}
+</style>
