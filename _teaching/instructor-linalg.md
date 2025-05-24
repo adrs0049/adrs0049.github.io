@@ -6,6 +6,8 @@ permalink: /teaching/instructor-linalg
 venue: "University of Massachusetts Amherst, Department of Mathematics and Statistics"
 excerpt: 'A second applied course in linear algebra.'
 date: 2024-01-28
+course_numer: 'MATH 545'
+semester: 'Fall 2024'
 location: "Amherst, MA, USA"
 notesurl: 'www.buttenschoen.ca/MATH545'
 ---

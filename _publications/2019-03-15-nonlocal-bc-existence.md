@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/2019-03-15-nonlocal-bc-existence
 date: 2019-03-15
 paperurl: 'https://epubs.siam.org/doi/abs/10.1137/19M1250315'
+preprinturl: 'https://arxiv.org/abs/1903.06635'
 venue: 'SIAM Journal on Applied Mathematics'
 excerpt: 'For the one dimensional Armstrong model of cell-cell adhesion, we derive various types of adhesive, repulsive, and no-flux boundary conditions.  We prove local and global existence and uniqueness for the resulting integro-differential equations.'
 citation: 'Hillen T., Buttenschön, A. <i>SIAM Journal on Applied Mathematics</i> (2020)'

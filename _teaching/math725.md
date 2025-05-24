@@ -7,6 +7,8 @@ venue: "University of Massachusetts Amherst, Department of Mathematics and Stati
 excerpt: 'MATH 725 (Applied) Functional Analysis'
 date: 2024-08-29
 location: "Amherst, MA, USA"
+course_numer: 'MATH 725'
+semester: 'Spring 2025'
 notesurl: 'www.buttenschoen.ca/MATH725'
 ---
 

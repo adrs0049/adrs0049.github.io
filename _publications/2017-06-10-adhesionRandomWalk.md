@@ -7,6 +7,7 @@ date: 2017-06-10
 venue: 'Journal of Mathematical Biology'
 excerpt: 'Derivation of non-local cell-cell adhesion models from a stochastic space-jump process.'
 paperurl: 'https://doi.org/10.1007/s00285-017-1144-3'
+preprinturl: 'https://www.biorxiv.org/content/biorxiv/early/2017/05/08/093617.full.pdf'
 citation: 'Buttenschön, A., Hillen, T., Gerisch, A., Painter, K.J. <i>J. Math. Biol.</i> (2018) 76: 429.'
 ---
 
