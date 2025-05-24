@@ -11,7 +11,7 @@ features:
   - "Bridge between discrete stochastic and continuous models"
   - "Analysis tools for pattern formation"
 githuburl: "https://github.com/adrs0049/AdhesionRandomWalk"
-paperurl: "https://doi.org/10.1016/j.mbs.2017.04.008"
+paperurl: 'https://doi.org/10.1007/s00285-017-1144-3'
 ---
 
 This framework implements a stochastic simulation algorithm for cell adhesion models where cells perform biased random walks based on non-local sensing of their environment. It provides a microscopic foundation for continuum adhesion models.
