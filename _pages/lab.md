@@ -12,16 +12,6 @@ Welcome to the Buttenschön Lab at the University of Massachusetts Amherst! We
 use mathematical modeling and computational approaches to understand how cells
 organize into functional tissues.
 
-## Research Focus
-
-Our lab investigates the fundamental principles governing collective cell
-behavior through:
-
-- **Nonlocal PDE models** for tissue-scale phenomena
-- **Cell-based modeling** for individual cell mechanics and interactions
-- **Pattern formation** in developmental biology
-- **Cell migration** in wound healing, development and cancer
-
 ## Lab Members
 
 ### Graduate Students
