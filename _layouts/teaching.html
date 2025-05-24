@@ -35,63 +35,60 @@ layout: default
 
         <!-- Group teaching by year -->
         {% assign sorted_teaching = site.teaching | sort: 'date' | reverse %}
-        {% assign years = sorted_teaching | map: 'date' | map: 'year' | uniq %}
+        {% assign teaching_by_year = sorted_teaching | group_by_exp: 'post', 'post.date | date: "%Y"' %}
 
-        {% for year in years %}
-          <h2 class="teaching-year">{{ year }}</h2>
+        {% for year_group in teaching_by_year %}
+          <h2 class="teaching-year">{{ year_group.name }}</h2>
 
           <ul class="course-list">
-            {% for post in sorted_teaching %}
-              {% assign post_year = post.date | date: "%Y" %}
-              {% if post_year == year %}
-                <li class="course-entry">
-                  <div class="course-main">
-                    <h3 class="course-title">
-                      {{ post.title }}
-                      {% if post.course_number %}
-                        <span class="course-number">({{ post.course_number }})</span>
-                      {% endif %}
-                    </h3>
+            {% for post in year_group.items %}
+              <li class="course-entry">
+                <div class="course-main">
+                  <h3 class="course-title">
+                    {{ post.title }}
+                    {% if post.course_number %}
+                      <span class="course-number">({{ post.course_number }})</span>
+                    {% endif %}
+                  </h3>
 
-                    <div class="course-info">
-                      <span class="course-type">{{ post.type }}</span>
-                      {% if post.venue %}
-                        <span class="separator">•</span>
-                        <span class="course-venue">{{ post.venue }}</span>
-                      {% endif %}
-                      {% if post.semester %}
-                        <span class="separator">•</span>
-                        <span class="course-semester">{{ post.semester }}</span>
-                      {% endif %}
-                    </div>
-
-                    {% if post.excerpt %}
-                      <p class="course-description">{{ post.excerpt | strip_html | truncate: 200 }}</p>
+                  <div class="course-info">
+                    <span class="course-type">{{ post.type }}</span>
+                    {% if post.venue %}
+                      <span class="separator">•</span>
+                      <span class="course-venue">{{ post.venue }}</span>
+                    {% endif %}
+                    {% if post.semester %}
+                      <span class="separator">•</span>
+                      <span class="course-semester">{{ post.semester }}</span>
                     {% endif %}
                   </div>
 
-                  <div class="course-links">
-                    {% if post.notesurl %}
-                      <a href="{{ post.notesurl }}" class="course-link notes" target="_blank">
-                        <i class="fas fa-fw fa-book"></i> Course Notes
-                      </a>
-                    {% endif %}
-                    {% if post.syllabusurl %}
-                      <a href="{{ post.syllabusurl }}" class="course-link syllabus" target="_blank">
-                        <i class="fas fa-fw fa-file-alt"></i> Syllabus
-                      </a>
-                    {% endif %}
-                    {% if post.websiteurl %}
-                      <a href="{{ post.websiteurl }}" class="course-link website" target="_blank">
-                        <i class="fas fa-fw fa-globe"></i> Course Website
-                      </a>
-                    {% endif %}
-                    <a href="{{ base_path }}{{ post.url }}" class="course-link more-info">
-                      <i class="fas fa-fw fa-info-circle"></i> More Info
+                  {% if post.excerpt %}
+                    <p class="course-description">{{ post.excerpt | strip_html | truncate: 200 }}</p>
+                  {% endif %}
+                </div>
+
+                <div class="course-links">
+                  {% if post.notesurl %}
+                    <a href="{{ post.notesurl }}" class="course-link notes" target="_blank">
+                      <i class="fas fa-fw fa-book"></i> Course Notes
                     </a>
-                  </div>
-                </li>
-              {% endif %}
+                  {% endif %}
+                  {% if post.syllabusurl %}
+                    <a href="{{ post.syllabusurl }}" class="course-link syllabus" target="_blank">
+                      <i class="fas fa-fw fa-file-alt"></i> Syllabus
+                    </a>
+                  {% endif %}
+                  {% if post.websiteurl %}
+                    <a href="{{ post.websiteurl }}" class="course-link website" target="_blank">
+                      <i class="fas fa-fw fa-globe"></i> Course Website
+                    </a>
+                  {% endif %}
+                  <a href="{{ base_path }}{{ post.url }}" class="course-link more-info">
+                    <i class="fas fa-fw fa-info-circle"></i> More Info
+                  </a>
+                </div>
+              </li>
             {% endfor %}
           </ul>
         {% endfor %}
