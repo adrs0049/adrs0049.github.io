@@ -36,8 +36,16 @@ layout: default
         <div class="projects-container">
           {% for project in site.research %}
             <div class="project-item">
-              <div class="project-image">
-                {% if project.header.teaser %}
+            <div class="project-image">
+                {% if project.teaser %}
+                  {% if project.teaser contains "://" %}
+                    <img src="{{ project.teaser }}" alt="{{ project.title }}">
+                  {% elsif project.teaser contains "/images/" %}
+                    <img src="{{ project.teaser | prepend: base_path }}" alt="{{ project.title }}">
+                  {% else %}
+                    <img src="{{ project.teaser | prepend: "/images/" | prepend: base_path }}" alt="{{ project.title }}">
+                  {% endif %}
+                {% elsif project.header.teaser %}
                   <img src="{{ project.header.teaser | prepend: "/images/" | prepend: base_path }}" alt="{{ project.title }}">
                 {% else %}
                   <div class="placeholder-image">
