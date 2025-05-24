@@ -1,0 +1,25 @@
+{% if include.title %}
+  {% assign notice_title = include.title %}
+{% else %}
+  {% assign notice_title = "Page Under Construction" %}
+{% endif %}
+
+{% if include.icon %}
+  {% assign notice_icon = include.icon %}
+{% else %}
+  {% assign notice_icon = "🚧" %}
+{% endif %}
+
+{% if include.type %}
+  {% assign notice_type = include.type %}
+{% else %}
+  {% assign notice_type = "construction" %}
+{% endif %}
+
+<div class="{{ notice_type }}-notice">
+  <div class="{{ notice_type }}-icon">{{ notice_icon }}</div>
+  <div class="{{ notice_type }}-content">
+    <h3>{{ notice_title }}</h3>
+    {{ include.content }}
+  </div>
+</div>

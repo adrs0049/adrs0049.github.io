@@ -7,59 +7,17 @@ redirect_from:
     - /portfolio/
 ---
 
-<div class="construction-notice">
-  <div class="construction-icon">🚧</div>
-  <div class="construction-content">
-    <h3>Page Under Construction</h3>
-    <p>I'm currently updating this page with detailed information about my research projects. Please check back soon!</p>
-    <p>In the meantime, you can explore my <a href="/publications/">published work</a> or visit my <a href="/lab/">lab page</a> for more information about current activities.</p>
-  </div>
-</div>
+{% capture notice_content %}
+<p>I'm currently updating this page with detailed information about my research projects. Please check back soon!</p>
+<p>In the meantime, you can explore my <a href="/publications/">published work</a> or visit my <a href="/lab/">lab page</a> for more information about current activities.</p>
+{% endcapture %}
+
+{% include construction-notice.html
+   title="Page Under Construction"
+   icon="🚧"
+   content=notice_content
+   type="construction"
+%}
 
 <p>Here you'll find an overview of my research projects, showcasing the intersection of mathematics, computation, and biology.</p>
 
-
-<style>
-.construction-notice {
-  background: #fff3cd;
-  border: 2px solid #ffeaa7;
-  border-radius: 8px;
-  padding: 1.5em;
-  margin: 1em 0 2em 0;
-  display: flex;
-  align-items: center;
-  gap: 1.5em;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.construction-icon {
-  font-size: 3em;
-  flex-shrink: 0;
-}
-
-.construction-content h3 {
-  margin: 0 0 0.5em 0;
-  color: #856404;
-}
-
-.construction-content p {
-  margin: 0.5em 0;
-  color: #856404;
-}
-
-.construction-content a {
-  color: #533f03;
-  font-weight: 600;
-}
-
-.construction-content a:hover {
-  text-decoration: underline;
-}
-
-@media (max-width: 600px) {
-  .construction-notice {
-    flex-direction: column;
-    text-align: center;
-  }
-}
-</style>
