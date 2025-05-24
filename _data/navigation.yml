@@ -9,8 +9,11 @@ main:
   - title: "Teaching"
     url: /teaching/
 
-  - title: "Projects"
-    url: /portfolio/
+  - title: "Research"
+    url: /research/
+
+  - title: "Lab"
+    url : /lab/
 
     #- title: "Blog Posts"
     #- url: /year-archive/

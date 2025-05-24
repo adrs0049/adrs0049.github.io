@@ -19,8 +19,8 @@ am interested in collective cell behaviours, which I view as swarms with a twist
   2. Interactions between cells go beyond simple attraction-repulsion; and
   3. Cells "live" in a regime where friction dominates over inertia.
 
-Examples include: wound healing, embryogenesis (normal development), the immune
-response, and cancer metastasis. I use mathematical modelling and
+These principles guide my work on wound healing, embryogenesis, immune response,
+and cancer metastasis. I use mathematical modelling and
 computational biology to uncover the *universal principles* how biological,
 physical, and chemical factors shape biological tissues.
 
