@@ -1,16 +1,15 @@
 ---
-title: "MATH x90CB Mathematical Cell Biology"
+title: "MATH 690CB Mathematical Cell Biology"
 collection: teaching
-type: "Undergraduate / Graduate course"
+type: "Graduate course"
 permalink: /teaching/math690
 venue: "University of Massachusetts Amherst, Department of Mathematics and Statistics"
-excerpt: 'MATH x90CB Mathematical Cell Biology'
+excerpt: 'MATH 690CB Mathematical Cell Biology'
 course_numer: 'MATH 690CB'
 semester: 'Fall 2024'
 date: 2023-09-01
 location: "Amherst, MA, USA"
 ---
-
 
 * Course time: **TBA**
 * Course text: Lecture notes will be provided.
