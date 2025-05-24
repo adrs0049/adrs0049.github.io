@@ -61,7 +61,6 @@ yandex_site_verification :
 
 
 # Social Sharing
-bluesky          : "bsky.app" # Replace this with you Bluesky username
 twitter:
   username               :
 facebook:
@@ -158,7 +157,6 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 mathjax: true
@@ -166,7 +164,6 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
