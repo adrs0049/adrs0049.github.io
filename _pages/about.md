@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 I am an applied mathematician, building bridges between the mathematical,
-computational, and biological sciences.  My strong foundations in each, allow
+computational, and biological sciences.  My strong foundations in each allow
 me to identify key biological problems, draw on and contribute to theoretical
 mathematical foundations, and develop advanced computational tools.
 
