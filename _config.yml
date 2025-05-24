@@ -191,6 +191,9 @@ collections:
   software:
     output: true
     permalink: /:collection/:path/
+  news:
+    output: true
+    permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
@@ -224,7 +227,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: true
+      comments: false
   # _publications
   - scope:
       path: ""
@@ -242,11 +245,20 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comment: true
+      comment: false
   # software
   - scope:
       path: ""
       type: software
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # news
+  - scope:
+      path: ""
+      type: news
     values:
       layout: single
       author_profile: true

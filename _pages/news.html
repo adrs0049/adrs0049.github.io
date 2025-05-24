@@ -1,0 +1,47 @@
+---
+layout: archive
+title: "News"
+permalink: /news/
+author_profile: true
+---
+
+{% include base_path %}
+
+<div class="news-archive">
+  {% assign all_news = site.news | sort: 'date' | reverse %}
+  {% assign news_by_year = all_news | group_by_exp: 'item', 'item.date | date: "%Y"' %}
+
+  {% for year_group in news_by_year %}
+    <h2 class="archive__subtitle">{{ year_group.name }}</h2>
+
+    {% for news_item in year_group.items %}
+      <article class="news-archive-item">
+        <h3 class="news-archive-title">
+          {% if news_item.url %}
+            <a href="{{ base_path }}{{ news_item.url }}">{{ news_item.title }}</a>
+          {% else %}
+            {{ news_item.title }}
+          {% endif %}
+        </h3>
+
+        <p class="news-archive-meta">
+          <i class="fa fa-calendar" aria-hidden="true"></i>
+          {{ news_item.date | date: "%B %d, %Y" }}
+          {% if news_item.category %}
+            | <i class="fa fa-tag" aria-hidden="true"></i> {{ news_item.category }}
+          {% endif %}
+        </p>
+
+        {% if news_item.content %}
+          <div class="news-archive-content">
+            {{ news_item.content | markdownify }}
+          </div>
+        {% elsif news_item.excerpt %}
+          <div class="news-archive-excerpt">
+            {{ news_item.excerpt | markdownify }}
+          </div>
+        {% endif %}
+      </article>
+    {% endfor %}
+  {% endfor %}
+</div>

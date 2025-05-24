@@ -36,6 +36,8 @@ or forces produced by individual cells, a more detailed **cell-based
 computational framework** is needed. I refer to such models as cell-based models
 (CBMs).
 
+{% include news-list.html %}
+
 Updates
 ------------
 
@@ -51,9 +53,4 @@ Updates
 
 - Our review on computational and mathematical models of cell migration is [published](https://doi.org/10.1371/journal.pcbi.1008411).
 
-
-Current Projects
-----------
-
-Up-to-date information coming **soon**.
 
