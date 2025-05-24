@@ -1,0 +1,39 @@
+# _data/lab_members.yml
+# Lab member information
+# Set alumni: true when members leave the lab
+
+- name: Andreas Buttenschön
+  title: Principal Investigator
+  research: Mathematical Biology, Cell Adhesion, Pattern Formation
+  photo: /images/profile-adrs.jpg
+  website: /
+  alumni: false
+
+- name: Justin Steinman
+  title: REU Student (Summer 2024)
+  research: Algorithms
+  website: https://nubdotdev.github.io/
+  current: "Current: Completing undergraduate degree"
+  alumni: true
+
+# Placeholder positions - remove when filled
+- name: Position Available
+  title: PhD Student
+  research: Join our team!
+  placeholder: true
+  icon: user-plus
+  alumni: false
+
+- name: Position Available
+  title: PhD Student
+  research: Join our team!
+  placeholder: true
+  icon: user-plus
+  alumni: false
+
+- name: Opportunities Available
+  title: Undergraduate Researcher
+  research: REU, Independent Study, Honors Thesis
+  placeholder: true
+  icon: user-plus
+  alumni: false

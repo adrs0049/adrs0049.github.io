@@ -12,13 +12,16 @@ Welcome to the Buttenschön Lab at the University of Massachusetts Amherst! We
 use mathematical modeling and computational approaches to understand how cells
 organize into functional tissues.
 
-## Lab Members
+## Team
 
-### Graduate Students
-*Positions available - see below!*
+{% assign current_members = site.data.lab_members | where: "alumni", false %}
+{% assign alumni_members = site.data.lab_members | where: "alumni", true %}
 
-### Undergraduate Researchers
-- **Justin Steinman** (2024 REU) - First lab preprint on [arXiv](https://arxiv.org/abs/2410.04512)
+### Current Members
+{% include member-grid.html members=current_members %}
+
+### Alumni
+{% include member-grid.html members=alumni_members %}
 
 ## Join Our Lab
 

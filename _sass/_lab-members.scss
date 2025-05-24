@@ -1,0 +1,150 @@
+/* _sass/_lab-members.scss */
+/* Lab members grid styling */
+.members-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5em;
+  margin: 2em 0;
+}
+
+.member-card {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 1.5em;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  border: 1px solid #e9ecef;
+}
+
+.member-card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transform: translateY(-2px);
+}
+
+.member-card.placeholder {
+  background: #f8f9fa;
+  border: 2px dashed #dee2e6;
+  opacity: 0.7;
+}
+
+.member-card.placeholder:hover {
+  opacity: 0.9;
+  border-color: #52adc8;
+}
+
+.member-card.alumni {
+  background: #fafbfc;
+}
+
+.member-photo {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 1em auto;
+  overflow: hidden;
+  border-radius: 50%;
+  background: #e9ecef;
+}
+
+.member-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.placeholder-photo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #dee2e6;
+  color: #6c757d;
+  font-size: 3em;
+}
+
+.member-info {
+  text-align: center;
+}
+
+.member-info h4 {
+  margin: 0 0 0.25em 0;
+  font-size: 1.1em;
+  color: #2e3440;
+}
+
+.member-info h4 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.member-info h4 a:hover {
+  color: #52adc8;
+  text-decoration: underline;
+}
+
+.member-title {
+  margin: 0 0 0.5em 0;
+  font-weight: 600;
+  color: #52adc8;
+  font-size: 0.95em;
+}
+
+.member-research {
+  margin: 0;
+  font-size: 0.9em;
+  color: #6c757d;
+  line-height: 1.4;
+}
+
+.member-current {
+  margin: 0.5em 0 0 0;
+  font-size: 0.85em;
+  color: #28a745;
+  font-style: italic;
+}
+
+/* Lab page specific */
+.lab-section {
+  margin-bottom: 3em;
+}
+
+.lab-section h2,
+.lab-section h3 {
+  color: #2e3440;
+  border-bottom: 2px solid #52adc8;
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+}
+
+/* Contact box styling */
+.contact-box {
+  background: #f8f9fa;
+  border-left: 4px solid #52adc8;
+  padding: 1.5em;
+  margin: 2em 0;
+  border-radius: 4px;
+}
+
+.contact-box h3 {
+  margin-top: 0;
+  color: #2e3440;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .members-grid {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1em;
+  }
+
+  .member-photo {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .members-grid {
+    grid-template-columns: 1fr;
+  }
+}
