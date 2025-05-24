@@ -10,11 +10,21 @@
     <ul class="news-list">
       {% for news_item in recent_news %}
         <li class="news-item">
+          {% if news_item.image %}
+            <div class="news-image">
+              <img src="{% if news_item.image contains '://' %}{{ news_item.image }}{% else %}{{ news_item.image | prepend: '/images/' | prepend: base_path }}{% endif %}"
+                   alt="{{ news_item.title }}" />
+            </div>
+          {% endif %}
+
           <div class="news-date">
             {{ news_item.date | date: "%B %Y" }}
           </div>
+
           <div class="news-content">
-            {% if news_item.url %}
+            {% if news_item.link %}
+              <a href="{{ news_item.link }}" class="news-title" {% if news_item.link contains '://' %}target="_blank"{% endif %}>{{ news_item.title }}</a>
+            {% elsif news_item.url %}
               <a href="{{ base_path }}{{ news_item.url }}" class="news-title">{{ news_item.title }}</a>
             {% else %}
               <span class="news-title">{{ news_item.title }}</span>

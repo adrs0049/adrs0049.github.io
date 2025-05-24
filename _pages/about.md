@@ -38,19 +38,3 @@ computational framework** is needed. I refer to such models as cell-based models
 
 {% include news-list.html %}
 
-Updates
-------------
-
-- I'm teaching [MATH 456: Mathematical Modeling](/teaching/math456) in Fall 2025, focusing on mathematical approaches to modeling cellular phenomena.
-
-- Together with the lab's first REU summer student [Justin Steinman](https://nubdotdev.github.io/), we [posted](https://arxiv.org/abs/2410.04512) our **first** lab pre-print.
-
-- We [posted](https://arxiv.org/abs/2406.02846) a pre-print on cell cluster instability for robust cluster formation.
-
-- Our book on bifurcations and symmetries in non-local cell adhesion models is out!
-
-<center><a href="https://www.springer.com/gp/book/9783030671105"><img src='/images/Buttenschoen-cover.png' width="25%" height="auto"></a></center><br/>
-
-- Our review on computational and mathematical models of cell migration is [published](https://doi.org/10.1371/journal.pcbi.1008411).
-
-
