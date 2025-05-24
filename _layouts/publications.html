@@ -41,11 +41,7 @@ layout: default
           {% for post in site.publications reversed %}
             <li class="publication-entry">
               <h3 class="publication-title">
-                {% if post.paperurl %}
-                  <a href="{{ post.paperurl }}" target="_blank">{{ post.title }}</a>
-                {% else %}
-                  {{ post.title }}
-                {% endif %}
+                <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
               </h3>
               {% if post.citation %}
                 <p class="publication-citation">{{ post.citation }}</p>
