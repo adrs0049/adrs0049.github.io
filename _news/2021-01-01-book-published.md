@@ -1,6 +1,6 @@
 ---
 title: "Book on Bifurcations and Symmetries Published"
-date: 2024-01-01
+date: 2021-01-01
 category: "Publication"
 excerpt: "Our book on bifurcations and symmetries in non-local cell adhesion models is now available from Springer."
 image: "Buttenschoen-cover.png"
