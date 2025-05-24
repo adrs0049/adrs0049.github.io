@@ -1,119 +1,166 @@
 /* Dark mode styles for custom sections */
 
-/* Publications Page Dark Mode */
+/* Publications Page Dark Mode - More Specific */
 [data-theme="dark"] .publications-page {
   .publications-list {
-    background-color: #1a1a1a;
-    color: #e6e6e6;
+    background-color: #1a1a1a !important;
+    color: #e6e6e6 !important;
   }
 
   .scholar-link {
-    color: #b3b3b3;
+    color: #b3b3b3 !important;
   }
 
   .publication-entry {
-    border-bottom-color: #333;
+    border-bottom-color: #333 !important;
   }
 
-  .publication-title a {
-    color: #e6e6e6;
+  .publication-title {
+    color: #e6e6e6 !important;
 
-    &:hover {
-      color: #52adc8;
+    a {
+      color: #e6e6e6 !important;
+
+      &:hover {
+        color: #52adc8 !important;
+      }
     }
   }
 
   .publication-citation {
-    color: #b3b3b3;
+    color: #b3b3b3 !important;
   }
 
   .pub-link {
     &.published {
-      color: #52adc8;
+      color: #52adc8 !important;
     }
 
     &.preprint {
-      color: #ff6b6b;
+      color: #ff6b6b !important;
     }
 
     &:hover {
-      color: #3d8ea3;
+      color: #3d8ea3 !important;
     }
   }
 }
 
-/* Software Page Dark Mode */
+/* Also target publication content directly */
+[data-theme="dark"] .publications-page .page__content {
+  h3 {
+    color: #e6e6e6 !important;
+  }
+
+  p {
+    color: #b3b3b3 !important;
+  }
+
+  a {
+    color: #52adc8 !important;
+  }
+}
+
+/* Software Page Dark Mode - More Specific Selectors */
 [data-theme="dark"] .software-page {
   .software-list {
-    background-color: #1a1a1a;
-    color: #e6e6e6;
+    background-color: #1a1a1a !important;
+    color: #e6e6e6 !important;
   }
 
   .software-entry {
-    border-bottom-color: #333;
+    border-bottom-color: #333 !important;
   }
 
   .software-title {
-    color: #e6e6e6;
+    color: #e6e6e6 !important;
   }
 
   .software-version {
-    color: #b3b3b3;
-    background-color: #2a2a2a;
+    color: #b3b3b3 !important;
+    background-color: #2a2a2a !important;
   }
 
-  .software-description,
-  .software-features li {
-    color: #b3b3b3;
+  .software-description {
+    color: #b3b3b3 !important;
   }
 
-  .software-features h4 {
-    color: #e6e6e6;
+  .software-features {
+    h4 {
+      color: #e6e6e6 !important;
+    }
+
+    ul {
+      color: #b3b3b3 !important;
+    }
+
+    li {
+      color: #b3b3b3 !important;
+    }
   }
 
   .tech-tag {
-    background-color: #2a2a2a;
-    color: #52adc8;
+    background-color: #2a2a2a !important;
+    color: #52adc8 !important;
   }
 
   .software-link {
-    border-color: currentColor;
+    border-color: currentColor !important;
 
     &.github {
-      background-color: #333;
-      border-color: #333;
+      background-color: #333 !important;
+      border-color: #333 !important;
+      color: white !important;
 
       &:hover {
-        background-color: #555;
+        background-color: #555 !important;
       }
     }
 
     &.paper {
-      background-color: #dc3545;
-      border-color: #dc3545;
+      background-color: #dc3545 !important;
+      border-color: #dc3545 !important;
+      color: white !important;
 
       &:hover {
-        background-color: #c82333;
+        background-color: #c82333 !important;
       }
     }
 
     &.docs {
-      background-color: #17a2b8;
-      border-color: #17a2b8;
+      background-color: #17a2b8 !important;
+      border-color: #17a2b8 !important;
+      color: white !important;
 
       &:hover {
-        background-color: #138496;
+        background-color: #138496 !important;
       }
     }
 
     &.demo {
-      background-color: #28a745;
-      border-color: #28a745;
+      background-color: #28a745 !important;
+      border-color: #28a745 !important;
+      color: white !important;
 
       &:hover {
-        background-color: #218838;
+        background-color: #218838 !important;
       }
     }
+  }
+}
+
+/* Also target the collection items directly */
+[data-theme="dark"] .software-page .page__content {
+  h3, h4, h5, h6 {
+    color: #e6e6e6 !important;
+  }
+
+  p {
+    color: #b3b3b3 !important;
+  }
+
+  ul li {
+    color: #b3b3b3 !important;
   }
 }
 
@@ -198,28 +245,62 @@
 /* Research/Portfolio Page Dark Mode */
 [data-theme="dark"] .portfolio-page {
   .project-item {
-    border-bottom-color: #333;
+    border-bottom-color: #333 !important;
   }
 
   .project-title {
-    color: #e6e6e6;
+    color: #e6e6e6 !important;
   }
 
   .project-excerpt {
-    color: #b3b3b3;
+    color: #b3b3b3 !important;
   }
 
   .placeholder-image {
-    background-color: #2a2a2a;
+    background-color: #2a2a2a !important;
 
     span {
-      color: #b3b3b3;
+      color: #b3b3b3 !important;
     }
   }
 
   .project-tags .tag {
-    background-color: #2a2a2a;
-    color: #b3b3b3;
+    background-color: #2a2a2a !important;
+    color: #b3b3b3 !important;
+  }
+}
+
+/* General Dark Mode Override for Collection Content */
+[data-theme="dark"] .page__content {
+  /* Override default text colors for all collection-generated content */
+  h1, h2, h3, h4, h5, h6 {
+    color: #e6e6e6 !important;
+  }
+
+  p {
+    color: #b3b3b3 !important;
+  }
+
+  li {
+    color: #b3b3b3 !important;
+  }
+
+  span {
+    color: #b3b3b3 !important;
+  }
+
+  /* Keep links visible */
+  a {
+    color: #52adc8 !important;
+
+    &:hover {
+      color: #3d8ea3 !important;
+    }
+  }
+
+  /* Ensure strong/bold text is visible */
+  strong, b {
+    color: #e6e6e6 !important;
   }
 }
 
@@ -259,86 +340,101 @@
   }
 }
 
-/* Teaching Page Dark Mode */
+/* Teaching Page Dark Mode - More Specific */
 [data-theme="dark"] .teaching-page {
   .teaching-year {
-    color: #e6e6e6;
-    border-bottom-color: #52adc8;
+    color: #e6e6e6 !important;
+    border-bottom-color: #52adc8 !important;
   }
 
   .course-entry {
-    border-bottom-color: #333;
+    border-bottom-color: #333 !important;
   }
 
   .course-title {
-    color: #e6e6e6;
+    color: #e6e6e6 !important;
   }
 
   .course-number,
   .course-info {
-    color: #b3b3b3;
+    color: #b3b3b3 !important;
 
     .separator {
-      color: #666;
+      color: #666 !important;
     }
   }
 
   .course-type {
-    color: #52adc8;
+    color: #52adc8 !important;
   }
 
   .course-description {
-    color: #b3b3b3;
+    color: #b3b3b3 !important;
   }
 
   .course-link {
-    background-color: #2a2a2a;
-    color: #e6e6e6;
-    border-color: #444;
+    background-color: #2a2a2a !important;
+    color: #e6e6e6 !important;
+    border-color: #444 !important;
 
     &:hover {
-      background-color: #333;
+      background-color: #333 !important;
     }
 
     &.notes {
-      background-color: #1a2332;
-      color: #52adc8;
-      border-color: #52adc8;
+      background-color: #1a2332 !important;
+      color: #52adc8 !important;
+      border-color: #52adc8 !important;
 
       &:hover {
-        background-color: #233040;
+        background-color: #233040 !important;
       }
     }
 
     &.syllabus {
-      background-color: #1a1f2e;
-      color: #e6e6e6;
-      border-color: #444;
+      background-color: #1a1f2e !important;
+      color: #e6e6e6 !important;
+      border-color: #444 !important;
 
       &:hover {
-        background-color: #252b3a;
+        background-color: #252b3a !important;
       }
     }
 
     &.website {
-      background-color: #332a1a;
-      color: #e6e6e6;
-      border-color: #856404;
+      background-color: #332a1a !important;
+      color: #e6e6e6 !important;
+      border-color: #856404 !important;
 
       &:hover {
-        opacity: 0.8;
+        opacity: 0.8 !important;
       }
     }
 
     &.more-info {
-      background-color: #2a2a2a;
-      color: #b3b3b3;
-      border-color: #444;
+      background-color: #2a2a2a !important;
+      color: #b3b3b3 !important;
+      border-color: #444 !important;
 
       &:hover {
-        background-color: #333;
-        color: #e6e6e6;
+        background-color: #333 !important;
+        color: #e6e6e6 !important;
       }
     }
+  }
+}
+
+/* Also target teaching content directly */
+[data-theme="dark"] .teaching-page .page__content {
+  h2, h3 {
+    color: #e6e6e6 !important;
+  }
+
+  p {
+    color: #b3b3b3 !important;
+  }
+
+  span {
+    color: #b3b3b3 !important;
   }
 }
