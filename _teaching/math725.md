@@ -9,7 +9,7 @@ date: 2025-01-01
 location: "Amherst, MA, USA"
 course_numer: 'MATH 725'
 semester: 'Spring 2025'
-notesurl: 'www.buttenschoen.ca/MATH725'
+notesurl: 'https://www.buttenschoen.ca/MATH725'
 ---
 
 

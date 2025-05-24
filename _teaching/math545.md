@@ -9,7 +9,7 @@ date: 2024-01-28
 course_numer: 'MATH 545'
 semesters: ['Spring 2024', 'Fall 2024']
 location: "Amherst, MA, USA"
-notesurl: 'www.buttenschoen.ca/MATH545'
+notesurl: 'https://www.buttenschoen.ca/MATH545'
 ---
 
 Math 545 is an advanced linear algebra course that builds on the concepts and techniques introduced in Math 235 (Intro Linear Algebra). We will study the decomposition of matrices, particularly the LU, QR, Cholesky and SVD decompositions. The coursework will be a mix of proof and computation. We will also study vector spaces and linear transformations, inner product spaces, orthogonality, spectral theory, and Jordan form. We will emphasize applications of these techniques to various problems including solutions of linear systems, least-square fitting, fast Fourier transforms, dynamical systems. The final part covers algorithms for computation of eigenpairs, iterative methods for linear systems, etc.
