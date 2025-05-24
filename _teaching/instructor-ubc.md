@@ -5,6 +5,7 @@ type: "Undergraduate courses"
 permalink: /teaching/instructor-ubc
 venue: "University of British Columbia, Department of Mathematics"
 excerpt: 'Instructor at University of British Columbia.'
+date_range: 'January 2018 - April 2022'
 date: 2018-01-02
 location: "Vancouver, Canada"
 ---

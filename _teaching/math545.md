@@ -2,12 +2,12 @@
 title: "Applied Linear Algebra (MATH 545)"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/instructor-linalg
+permalink: /teaching/math545
 venue: "University of Massachusetts Amherst, Department of Mathematics and Statistics"
 excerpt: 'A second applied course in linear algebra.'
 date: 2024-01-28
 course_numer: 'MATH 545'
-semester: 'Fall 2024'
+semesters: ['Spring 2024', 'Fall 2024']
 location: "Amherst, MA, USA"
 notesurl: 'www.buttenschoen.ca/MATH545'
 ---
