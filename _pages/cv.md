@@ -46,11 +46,12 @@ Research experience
   * University of Alberta
   * Supervisors: Dr. Ian Mann and Dr. Laura Mazzino
 
-Publications
+
+Publications & Teaching
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+For a complete list of publications, please see my [Publications page](/publications/).
+
+For teaching experience and course materials, please visit my [Teaching page](/teaching/).
 
 Service and leadership
 ======
