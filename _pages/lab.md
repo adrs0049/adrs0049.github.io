@@ -1,14 +1,12 @@
 ---
 layout: single
-title: "Buttenschön Lab"
+title: "Math-Bio Lab"
 permalink: /lab/
 author_profile: false
 toc: true
 toc_label: "Lab Info"
 toc_icon: "flask"
 ---
-
-# Mathematical Biology Laboratory
 
 Welcome to the Buttenschön Lab at the University of Massachusetts Amherst! We
 use mathematical modeling and computational approaches to understand how cells
