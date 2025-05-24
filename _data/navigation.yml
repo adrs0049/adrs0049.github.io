@@ -1,25 +1,25 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
-
-  - title: "Teaching"
-    url: /teaching/
+  - title: "Lab"
+    url : /lab/
 
   - title: "Research"
     url: /research/
 
+  - title: "Publications"
+    url: /publications/
+
   - title: "Software"
     url : /software/
 
-  - title: "Lab"
-    url : /lab/
-
-    #- title: "Blog Posts"
-    #- url: /year-archive/
+  - title: "Teaching"
+    url: /teaching/
 
   - title: "CV"
     url: /cv/
+
+    #- title: "Blog Posts"
+    #- url: /year-archive/
 
     #- title: "Guide"
     #- url: /markdown/
