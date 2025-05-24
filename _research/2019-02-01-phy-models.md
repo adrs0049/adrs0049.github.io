@@ -1,7 +1,7 @@
 ---
 title: "Physics-based models of collective cell migration"
 excerpt: "Under construction"
-collection: portfolio
+collection: research
 ---
 
 **Under construction.**

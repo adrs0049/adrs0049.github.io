@@ -70,13 +70,17 @@ Please contact me directly to discuss potential funding opportunities.
 ### Computational Resources
 Our lab has access to high-performance computing resources for large-scale simulations.
 
-## Lab Culture
 
-We strive to maintain an inclusive, collaborative environment where:
-- Ideas are shared openly
-- Mistakes are learning opportunities
-- Work-life balance is respected
-- Diverse perspectives are valued
+## Lab Environment
+
+We maintain a collaborative environment where ideas are shared openly and
+everyone is welcome to contribute. Our weekly lab meetings provide a supportive
+space for:
+
+- Presenting research progress and getting feedback
+- Discussing new papers and mathematical techniques
+- Troubleshooting challenges together
+
 
 ## News & Updates
 
