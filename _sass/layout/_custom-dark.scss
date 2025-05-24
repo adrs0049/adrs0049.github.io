@@ -1,0 +1,335 @@
+/* Dark mode styles for custom sections */
+
+/* Publications Page Dark Mode */
+[data-theme="dark"] .publications-page {
+  .publications-list {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+
+  .scholar-link {
+    color: var(--muted-text-color);
+  }
+
+  .publication-entry {
+    border-bottom-color: var(--border-color);
+  }
+
+  .publication-title a {
+    color: var(--text-color);
+
+    &:hover {
+      color: var(--link-color);
+    }
+  }
+
+  .publication-citation {
+    color: var(--muted-text-color);
+  }
+
+  .pub-link {
+    &.published {
+      color: var(--link-color);
+    }
+
+    &.preprint {
+      color: var(--link-color-hover);
+    }
+
+    &:hover {
+      color: var(--link-color-hover);
+    }
+  }
+}
+
+/* Software Page Dark Mode */
+[data-theme="dark"] .software-page {
+  .software-list {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+
+  .software-entry {
+    border-bottom-color: var(--border-color);
+  }
+
+  .software-title {
+    color: var(--text-color);
+  }
+
+  .software-version {
+    color: var(--muted-text-color);
+    background-color: var(--code-background-color);
+  }
+
+  .software-description,
+  .software-features li {
+    color: var(--muted-text-color);
+  }
+
+  .software-features h4 {
+    color: var(--text-color);
+  }
+
+  .tech-tag {
+    background-color: var(--code-background-color);
+    color: var(--link-color);
+  }
+
+  .software-link {
+    border-color: currentColor;
+
+    &.github {
+      background-color: #333;
+      border-color: #333;
+
+      &:hover {
+        background-color: #555;
+      }
+    }
+
+    &.paper {
+      background-color: var(--link-color);
+      border-color: var(--link-color);
+
+      &:hover {
+        background-color: var(--link-color-hover);
+      }
+    }
+
+    &.docs {
+      background-color: var(--info-color);
+      border-color: var(--info-color);
+    }
+
+    &.demo {
+      background-color: var(--success-color);
+      border-color: var(--success-color);
+    }
+  }
+}
+
+/* Lab/Members Page Dark Mode */
+[data-theme="dark"] {
+  .members-grid {
+    .member-card {
+      background: var(--sidebar-background-color);
+      color: var(--text-color);
+      box-shadow: 0 2px 4px rgba(255,255,255,0.1);
+
+      &.placeholder {
+        border-color: var(--border-color);
+        background: var(--sidebar-background-color);
+      }
+
+      &.alumni {
+        background: var(--code-background-color);
+        opacity: 0.9;
+      }
+    }
+
+    .member-info h4 {
+      color: var(--text-color);
+
+      a {
+        color: var(--text-color);
+
+        &:hover {
+          color: var(--link-color);
+        }
+      }
+    }
+
+    .member-title,
+    .member-research {
+      color: var(--muted-text-color);
+    }
+
+    .member-current {
+      color: var(--success-color);
+    }
+
+    .placeholder-photo {
+      background: var(--border-color);
+      color: var(--muted-text-color);
+    }
+  }
+
+  .construction-notice {
+    background: var(--notice-warning-background);
+    border-color: var(--notice-warning-border);
+
+    .construction-content {
+      h3, p {
+        color: var(--text-color);
+      }
+
+      a {
+        color: var(--link-color);
+      }
+    }
+  }
+
+  .info-notice {
+    background: var(--notice-info-background);
+    border-color: var(--notice-info-border);
+
+    .info-content {
+      h3, p {
+        color: var(--text-color);
+      }
+
+      a {
+        color: var(--link-color);
+      }
+    }
+  }
+}
+
+/* Research/Portfolio Page Dark Mode */
+[data-theme="dark"] .portfolio-page {
+  .project-item {
+    border-bottom-color: var(--border-color);
+  }
+
+  .project-title {
+    color: var(--text-color);
+  }
+
+  .project-excerpt {
+    color: var(--muted-text-color);
+  }
+
+  .placeholder-image {
+    background-color: var(--code-background-color);
+
+    span {
+      color: var(--muted-text-color);
+    }
+  }
+
+  .project-tags .tag {
+    background-color: var(--code-background-color);
+    color: var(--muted-text-color);
+  }
+}
+
+/* CV Page Dark Mode */
+[data-theme="dark"] .cv-container {
+  background-color: var(--background-color);
+  color: var(--text-color);
+
+  .cv-header h1,
+  .cv-section h2 {
+    color: var(--text-color);
+    border-bottom-color: var(--border-color);
+  }
+
+  .cv-contact-item,
+  .cv-item-subtitle,
+  .cv-item-detail {
+    color: var(--muted-text-color);
+  }
+
+  .cv-profile-link {
+    color: var(--link-color);
+  }
+
+  .cv-item {
+    border-bottom-color: var(--border-color);
+  }
+
+  .cv-skill-keyword {
+    background-color: var(--code-background-color);
+    color: var(--text-color);
+  }
+
+  .cv-project-keyword {
+    background-color: var(--code-background-color);
+    color: var(--link-color);
+  }
+}
+
+/* Teaching Page Dark Mode */
+[data-theme="dark"] .teaching-page {
+  .teaching-year {
+    color: var(--text-color);
+    border-bottom-color: var(--link-color);
+  }
+
+  .course-entry {
+    border-bottom-color: var(--border-color);
+  }
+
+  .course-title {
+    color: var(--text-color);
+  }
+
+  .course-number,
+  .course-info {
+    color: var(--muted-text-color);
+
+    .separator {
+      color: var(--border-color);
+    }
+  }
+
+  .course-type {
+    color: var(--link-color);
+  }
+
+  .course-description {
+    color: var(--muted-text-color);
+  }
+
+  .course-link {
+    background-color: var(--sidebar-background-color);
+    color: var(--text-color);
+    border-color: var(--border-color);
+
+    &:hover {
+      background-color: var(--code-background-color);
+    }
+
+    &.notes {
+      background-color: var(--code-background-color);
+      color: var(--link-color);
+      border-color: var(--link-color);
+
+      &:hover {
+        background-color: var(--border-color);
+      }
+    }
+
+    &.syllabus {
+      background-color: var(--code-background-color);
+      color: var(--text-color);
+      border-color: var(--border-color);
+
+      &:hover {
+        background-color: var(--border-color);
+      }
+    }
+
+    &.website {
+      background-color: var(--notice-warning-background);
+      color: var(--text-color);
+      border-color: var(--notice-warning-border);
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+
+    &.more-info {
+      background-color: var(--sidebar-background-color);
+      color: var(--muted-text-color);
+      border-color: var(--border-color);
+
+      &:hover {
+        background-color: var(--code-background-color);
+        color: var(--text-color);
+      }
+    }
+  }
+}

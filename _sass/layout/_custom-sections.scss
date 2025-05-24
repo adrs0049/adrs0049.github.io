@@ -1,0 +1,613 @@
+/* Custom sections styling - Publications, Software, Lab, Teaching */
+
+/* Publications Page */
+.publications-page {
+  .publications-list {
+    max-width: 100%;
+  }
+
+  .scholar-link {
+    margin-bottom: 2em;
+    font-style: italic;
+  }
+
+  .publication-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .publication-entry {
+    margin-bottom: 1.5em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #f2f3f3;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .publication-title {
+    font-size: 1.1em;
+    margin: 0 0 0.5em 0;
+    line-height: 1.4;
+
+    a {
+      text-decoration: none;
+      color: inherit;
+
+      &:hover {
+        text-decoration: underline;
+        color: #52adc8;
+      }
+    }
+  }
+
+  .publication-citation {
+    margin: 0;
+    font-size: 0.95em;
+    line-height: 1.5;
+    color: #494e52;
+  }
+
+  .publication-links {
+    margin-top: 0.75em;
+    display: flex;
+    gap: 1.5em;
+    flex-wrap: wrap;
+  }
+
+  .pub-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3em;
+    font-size: 0.9em;
+    text-decoration: none;
+    color: #52adc8;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: #3d8ea3;
+      text-decoration: underline;
+    }
+
+    &.published {
+      color: #52adc8;
+    }
+
+    &.preprint {
+      color: #b31b1b;
+    }
+
+    i {
+      font-size: 1.1em;
+    }
+  }
+}
+
+/* Software Page */
+.software-page {
+  .software-list {
+    max-width: 100%;
+  }
+
+  .software-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .software-entry {
+    margin-bottom: 2.5em;
+    padding-bottom: 2.5em;
+    border-bottom: 1px solid #f2f3f3;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .software-title {
+    font-size: 1.3em;
+    margin: 0 0 0.5em 0;
+    line-height: 1.3;
+    color: #2e3440;
+  }
+
+  .software-version {
+    font-size: 0.7em;
+    font-weight: normal;
+    color: #7a8288;
+    background-color: #f2f3f3;
+    padding: 0.2em 0.5em;
+    border-radius: 3px;
+    margin-left: 0.5em;
+  }
+
+  .software-description {
+    margin: 0.75em 0;
+    line-height: 1.6;
+    color: #494e52;
+  }
+
+  .software-features {
+    margin: 1em 0;
+
+    h4 {
+      font-size: 1em;
+      margin: 0 0 0.5em 0;
+      color: #494e52;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 1.5em;
+    }
+
+    li {
+      margin-bottom: 0.3em;
+      color: #494e52;
+    }
+  }
+
+  .software-tech {
+    margin: 1em 0;
+    font-size: 0.95em;
+  }
+
+  .tech-tag {
+    display: inline-block;
+    padding: 0.25em 0.6em;
+    margin: 0.2em;
+    background-color: #e1ecf4;
+    color: #39739d;
+    border-radius: 3px;
+    font-size: 0.9em;
+  }
+
+  .software-links {
+    margin-top: 1.5em;
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+  }
+
+  .software-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    padding: 0.5em 1em;
+    font-size: 0.9em;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    border: 1px solid;
+
+    &:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    &.github {
+      background-color: #24292e;
+      color: white;
+      border-color: #24292e;
+
+      &:hover {
+        background-color: #1a1e22;
+      }
+    }
+
+    &.paper {
+      background-color: #dc3545;
+      color: white;
+      border-color: #dc3545;
+
+      &:hover {
+        background-color: #c82333;
+      }
+    }
+
+    &.docs {
+      background-color: #17a2b8;
+      color: white;
+      border-color: #17a2b8;
+
+      &:hover {
+        background-color: #138496;
+      }
+    }
+
+    &.demo {
+      background-color: #28a745;
+      color: white;
+      border-color: #28a745;
+
+      &:hover {
+        background-color: #218838;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .software-links {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .software-link {
+      width: fit-content;
+    }
+  }
+}
+
+/* Lab/Members Page */
+.members-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.member-card {
+  background: var(--sidebar-background-color, #f8f9fa);
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+  border: 1px solid var(--border-color, transparent);
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+
+  &.placeholder {
+    border: 2px dashed var(--border-color, #dee2e6);
+    background: var(--sidebar-background-color, #f8f9fa);
+  }
+
+  &.alumni {
+    opacity: 0.8;
+    background: var(--code-background-color, #e9ecef);
+  }
+}
+
+.member-photo {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.placeholder-photo {
+  width: 100%;
+  height: 100%;
+  background: var(--border-color, #dee2e6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: var(--muted-text-color, #6c757d);
+}
+
+.member-info {
+  h4 {
+    margin: 0 0 0.5rem 0;
+    color: var(--text-color, #495057);
+
+    a {
+      color: var(--text-color, #495057);
+      text-decoration: none;
+
+      &:hover {
+        color: var(--link-color, #007bff);
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.member-title {
+  font-weight: 600;
+  color: var(--muted-text-color, #6c757d);
+  margin: 0 0 0.5rem 0;
+}
+
+.member-research {
+  font-size: 0.9rem;
+  color: var(--muted-text-color, #6c757d);
+  margin: 0 0 0.5rem 0;
+  line-height: 1.4;
+}
+
+.member-current {
+  font-size: 0.85rem;
+  color: var(--success-color, #28a745);
+  font-style: italic;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .members-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+/* Teaching Page */
+.teaching-page {
+  .teaching-list {
+    max-width: 100%;
+  }
+
+  .teaching-year {
+    font-size: 1.5em;
+    margin: 2em 0 1em 0;
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid #52adc8;
+    color: #494e52;
+  }
+
+  .course-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .course-entry {
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #f2f3f3;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2em;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .course-main {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .course-title {
+    margin: 0 0 0.5em 0;
+    font-size: 1.25em;
+    line-height: 1.3;
+    color: #2e3440;
+  }
+
+  .course-number {
+    font-weight: normal;
+    color: #7a8288;
+    font-size: 0.9em;
+  }
+
+  .course-info {
+    margin-bottom: 0.75em;
+    font-size: 0.95em;
+    color: #7a8288;
+
+    .separator {
+      margin: 0 0.5em;
+      color: #d3d4d5;
+    }
+  }
+
+  .course-type {
+    font-weight: 600;
+    color: #52adc8;
+  }
+
+  .course-description {
+    margin: 0.75em 0 0 0;
+    line-height: 1.6;
+    color: #494e52;
+    font-size: 0.95em;
+  }
+
+  .course-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: flex-end;
+    flex-shrink: 0;
+  }
+
+  .course-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    padding: 0.4em 0.8em;
+    font-size: 0.85em;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+    background-color: #f8f9fa;
+    color: #494e52;
+    border: 1px solid #e1e4e8;
+
+    &:hover {
+      background-color: #e1e4e8;
+      text-decoration: none;
+    }
+
+    &.notes {
+      background-color: #e8f4fd;
+      color: #0366d6;
+      border-color: #c8e1ff;
+
+      &:hover {
+        background-color: #c8e1ff;
+      }
+    }
+
+    &.syllabus {
+      background-color: #f0f8ff;
+      color: #032f62;
+      border-color: #c8d1d9;
+
+      &:hover {
+        background-color: #dae5f4;
+      }
+    }
+
+    &.website {
+      background-color: #fff3cd;
+      color: #856404;
+      border-color: #ffeaa7;
+
+      &:hover {
+        background-color: #ffeaa7;
+      }
+    }
+
+    &.more-info {
+      background-color: #f8f9fa;
+      color: #6c757d;
+      border-color: #dee2e6;
+
+      &:hover {
+        background-color: #e9ecef;
+        color: #495057;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .course-entry {
+      flex-direction: column;
+      gap: 1em;
+    }
+
+    .course-links {
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: 0.5em;
+    }
+
+    .course-link {
+      font-size: 0.8em;
+      padding: 0.3em 0.6em;
+    }
+  }
+}
+
+/* Research/Portfolio Page */
+.portfolio-page {
+  .portfolio-content {
+    max-width: 100%;
+  }
+
+  .projects-container {
+    margin-top: 2em;
+  }
+
+  .project-item {
+    display: flex;
+    gap: 2em;
+    margin-bottom: 3em;
+    padding-bottom: 3em;
+    border-bottom: 1px solid #f2f3f3;
+    align-items: center;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .project-image {
+    flex: 0 0 40%;
+    max-width: 400px;
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    }
+  }
+
+  .placeholder-image {
+    width: 100%;
+    padding-bottom: 66.67%; /* 3:2 aspect ratio */
+    background-color: #f2f3f3;
+    border-radius: 4px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    span {
+      position: absolute;
+      color: #898c8f;
+      font-style: italic;
+    }
+  }
+
+  .project-content {
+    flex: 1;
+    min-width: 0; /* Prevents flex item from overflowing */
+  }
+
+  .project-title {
+    margin: 0 0 0.75em 0;
+    font-size: 1.5em;
+    line-height: 1.2;
+  }
+
+  .project-excerpt {
+    margin-bottom: 1em;
+    line-height: 1.6;
+    color: #494e52;
+
+    p {
+      margin-bottom: 0.75em;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin-top: 1em;
+
+    .tag {
+      display: inline-block;
+      padding: 0.25em 0.75em;
+      background-color: #f2f3f3;
+      border-radius: 3px;
+      font-size: 0.85em;
+      color: #494e52;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .project-item {
+      flex-direction: column;
+    }
+
+    .project-image {
+      flex: none;
+      max-width: 100%;
+      margin-bottom: 1em;
+    }
+  }
+}

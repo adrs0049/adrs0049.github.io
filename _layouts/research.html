@@ -36,7 +36,7 @@ layout: default
         <div class="projects-container">
           {% for project in site.research %}
             <div class="project-item">
-            <div class="project-image">
+              <div class="project-image">
                 {% if project.teaser %}
                   {% if project.teaser contains "://" %}
                     <img src="{{ project.teaser }}" alt="{{ project.title }}">
@@ -88,110 +88,3 @@ layout: default
     {% endif %}
   </article>
 </div>
-
-<style>
-/* Portfolio page specific styling */
-.portfolio-page .portfolio-content {
-  max-width: 100%;
-}
-
-.portfolio-page .projects-container {
-  margin-top: 2em;
-}
-
-.portfolio-page .project-item {
-  display: flex;
-  gap: 2em;
-  margin-bottom: 3em;
-  padding-bottom: 3em;
-  border-bottom: 1px solid #f2f3f3;
-  align-items: center;
-}
-
-.portfolio-page .project-item:last-child {
-  border-bottom: none;
-}
-
-.portfolio-page .project-image {
-  flex: 0 0 40%;
-  max-width: 400px;
-}
-
-.portfolio-page .project-image img {
-  width: 100%;
-  height: auto;
-  border-radius: 4px;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
-}
-
-.portfolio-page .placeholder-image {
-  width: 100%;
-  padding-bottom: 66.67%; /* 3:2 aspect ratio */
-  background-color: #f2f3f3;
-  border-radius: 4px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.portfolio-page .placeholder-image span {
-  position: absolute;
-  color: #898c8f;
-  font-style: italic;
-}
-
-.portfolio-page .project-content {
-  flex: 1;
-  min-width: 0; /* Prevents flex item from overflowing */
-}
-
-.portfolio-page .project-title {
-  margin: 0 0 0.75em 0;
-  font-size: 1.5em;
-  line-height: 1.2;
-}
-
-.portfolio-page .project-excerpt {
-  margin-bottom: 1em;
-  line-height: 1.6;
-  color: #494e52;
-}
-
-.portfolio-page .project-excerpt p {
-  margin-bottom: 0.75em;
-}
-
-.portfolio-page .project-excerpt p:last-child {
-  margin-bottom: 0;
-}
-
-.portfolio-page .project-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5em;
-  margin-top: 1em;
-}
-
-.portfolio-page .project-tags .tag {
-  display: inline-block;
-  padding: 0.25em 0.75em;
-  background-color: #f2f3f3;
-  border-radius: 3px;
-  font-size: 0.85em;
-  color: #494e52;
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
-  .portfolio-page .project-item {
-    flex-direction: column;
-  }
-
-  .portfolio-page .project-image {
-    flex: none;
-    max-width: 100%;
-    margin-bottom: 1em;
-  }
-}
-</style>

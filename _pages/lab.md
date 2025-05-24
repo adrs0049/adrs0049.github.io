@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: lab
 title: "Math-Bio Lab"
 permalink: /lab/
 author_profile: true
