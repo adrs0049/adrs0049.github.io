@@ -1,5 +1,5 @@
 ---
-title: "New Preprint on Cell Cluster Instability"
+title: "PREPRINT: The Cell Cluster Instability"
 date: 2024-06-02
 category: "Research"
 excerpt: "How cells stay together; a mechanism for maintenance of a robust cluster explored by local and nonlocal continuum models."

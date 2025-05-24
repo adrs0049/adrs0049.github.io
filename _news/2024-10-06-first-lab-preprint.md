@@ -1,5 +1,5 @@
 ---
-title: "First Lab Preprint Published"
+title: "PREPRINT: Graph-Based Preconditioners for Agent-Based Models"
 date: 2024-10-06
 category: "Research"
 excerpt: "Together with REU student Justin Steinman, we published our first lab pre-print on support graph preconditioners for cell-based models."
