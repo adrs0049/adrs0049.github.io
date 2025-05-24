@@ -231,7 +231,7 @@ defaults:
   # _research
   - scope:
       path: ""
-      type: resarch
+      type: research
     values:
       layout: single
       author_profile: true

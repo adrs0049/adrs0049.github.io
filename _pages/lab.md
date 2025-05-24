@@ -2,7 +2,7 @@
 layout: single
 title: "Math-Bio Lab"
 permalink: /lab/
-author_profile: false
+author_profile: true
 toc: true
 toc_label: "Lab Info"
 toc_icon: "flask"
@@ -75,36 +75,3 @@ space for:
 - Troubleshooting challenges together
 
 
-## News & Updates
-
-**October 2024**: First lab preprint posted! Congratulations to [Justin Steinman](https://nubdotdev.github.io) on his REU project.
-
-**June 2024**: New preprint on cell cluster instability available on arXiv.
-
-**September 2022**: Lab established at UMass Amherst.
-
----
-
-<div class="contact-box">
-  <h3>Contact Us</h3>
-  <p><strong>Office:</strong> Lederle Graduate Research Tower, Room 1525<br>
-  <strong>Email:</strong> andreas.buttenschoen [at] umass.edu<br>
-  <strong>Address:</strong> Department of Mathematics and Statistics<br>
-  University of Massachusetts Amherst<br>
-  Amherst, MA 01003</p>
-</div>
-
-<style>
-.contact-box {
-  background: #f8f9fa;
-  border-left: 4px solid #52adc8;
-  padding: 1.5em;
-  margin: 2em 0;
-  border-radius: 4px;
-}
-
-.contact-box h3 {
-  margin-top: 0;
-  color: #2e3440;
-}
-</style>
