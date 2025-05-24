@@ -3,41 +3,41 @@
 /* Publications Page Dark Mode */
 [data-theme="dark"] .publications-page {
   .publications-list {
-    background-color: var(--background-color);
-    color: var(--text-color);
+    background-color: #1a1a1a;
+    color: #e6e6e6;
   }
 
   .scholar-link {
-    color: var(--muted-text-color);
+    color: #b3b3b3;
   }
 
   .publication-entry {
-    border-bottom-color: var(--border-color);
+    border-bottom-color: #333;
   }
 
   .publication-title a {
-    color: var(--text-color);
+    color: #e6e6e6;
 
     &:hover {
-      color: var(--link-color);
+      color: #52adc8;
     }
   }
 
   .publication-citation {
-    color: var(--muted-text-color);
+    color: #b3b3b3;
   }
 
   .pub-link {
     &.published {
-      color: var(--link-color);
+      color: #52adc8;
     }
 
     &.preprint {
-      color: var(--link-color-hover);
+      color: #ff6b6b;
     }
 
     &:hover {
-      color: var(--link-color-hover);
+      color: #3d8ea3;
     }
   }
 }
@@ -45,35 +45,35 @@
 /* Software Page Dark Mode */
 [data-theme="dark"] .software-page {
   .software-list {
-    background-color: var(--background-color);
-    color: var(--text-color);
+    background-color: #1a1a1a;
+    color: #e6e6e6;
   }
 
   .software-entry {
-    border-bottom-color: var(--border-color);
+    border-bottom-color: #333;
   }
 
   .software-title {
-    color: var(--text-color);
+    color: #e6e6e6;
   }
 
   .software-version {
-    color: var(--muted-text-color);
-    background-color: var(--code-background-color);
+    color: #b3b3b3;
+    background-color: #2a2a2a;
   }
 
   .software-description,
   .software-features li {
-    color: var(--muted-text-color);
+    color: #b3b3b3;
   }
 
   .software-features h4 {
-    color: var(--text-color);
+    color: #e6e6e6;
   }
 
   .tech-tag {
-    background-color: var(--code-background-color);
-    color: var(--link-color);
+    background-color: #2a2a2a;
+    color: #52adc8;
   }
 
   .software-link {
@@ -89,22 +89,30 @@
     }
 
     &.paper {
-      background-color: var(--link-color);
-      border-color: var(--link-color);
+      background-color: #dc3545;
+      border-color: #dc3545;
 
       &:hover {
-        background-color: var(--link-color-hover);
+        background-color: #c82333;
       }
     }
 
     &.docs {
-      background-color: var(--info-color);
-      border-color: var(--info-color);
+      background-color: #17a2b8;
+      border-color: #17a2b8;
+
+      &:hover {
+        background-color: #138496;
+      }
     }
 
     &.demo {
-      background-color: var(--success-color);
-      border-color: var(--success-color);
+      background-color: #28a745;
+      border-color: #28a745;
+
+      &:hover {
+        background-color: #218838;
+      }
     }
   }
 }
@@ -113,74 +121,75 @@
 [data-theme="dark"] {
   .members-grid {
     .member-card {
-      background: var(--sidebar-background-color);
-      color: var(--text-color);
+      background: #2a2a2a;
+      color: #e6e6e6;
       box-shadow: 0 2px 4px rgba(255,255,255,0.1);
+      border-color: #444;
 
       &.placeholder {
-        border-color: var(--border-color);
-        background: var(--sidebar-background-color);
+        border-color: #444;
+        background: #2a2a2a;
       }
 
       &.alumni {
-        background: var(--code-background-color);
+        background: #1f1f1f;
         opacity: 0.9;
       }
     }
 
     .member-info h4 {
-      color: var(--text-color);
+      color: #e6e6e6;
 
       a {
-        color: var(--text-color);
+        color: #e6e6e6;
 
         &:hover {
-          color: var(--link-color);
+          color: #52adc8;
         }
       }
     }
 
     .member-title,
     .member-research {
-      color: var(--muted-text-color);
+      color: #b3b3b3;
     }
 
     .member-current {
-      color: var(--success-color);
+      color: #28a745;
     }
 
     .placeholder-photo {
-      background: var(--border-color);
-      color: var(--muted-text-color);
+      background: #444;
+      color: #b3b3b3;
     }
   }
 
   .construction-notice {
-    background: var(--notice-warning-background);
-    border-color: var(--notice-warning-border);
+    background: #332a1a;
+    border-color: #856404;
 
     .construction-content {
       h3, p {
-        color: var(--text-color);
+        color: #e6e6e6;
       }
 
       a {
-        color: var(--link-color);
+        color: #52adc8;
       }
     }
   }
 
   .info-notice {
-    background: var(--notice-info-background);
-    border-color: var(--notice-info-border);
+    background: #1a2d33;
+    border-color: #17a2b8;
 
     .info-content {
       h3, p {
-        color: var(--text-color);
+        color: #e6e6e6;
       }
 
       a {
-        color: var(--link-color);
+        color: #52adc8;
       }
     }
   }
@@ -189,28 +198,28 @@
 /* Research/Portfolio Page Dark Mode */
 [data-theme="dark"] .portfolio-page {
   .project-item {
-    border-bottom-color: var(--border-color);
+    border-bottom-color: #333;
   }
 
   .project-title {
-    color: var(--text-color);
+    color: #e6e6e6;
   }
 
   .project-excerpt {
-    color: var(--muted-text-color);
+    color: #b3b3b3;
   }
 
   .placeholder-image {
-    background-color: var(--code-background-color);
+    background-color: #2a2a2a;
 
     span {
-      color: var(--muted-text-color);
+      color: #b3b3b3;
     }
   }
 
   .project-tags .tag {
-    background-color: var(--code-background-color);
-    color: var(--muted-text-color);
+    background-color: #2a2a2a;
+    color: #b3b3b3;
   }
 }
 
@@ -253,68 +262,68 @@
 /* Teaching Page Dark Mode */
 [data-theme="dark"] .teaching-page {
   .teaching-year {
-    color: var(--text-color);
-    border-bottom-color: var(--link-color);
+    color: #e6e6e6;
+    border-bottom-color: #52adc8;
   }
 
   .course-entry {
-    border-bottom-color: var(--border-color);
+    border-bottom-color: #333;
   }
 
   .course-title {
-    color: var(--text-color);
+    color: #e6e6e6;
   }
 
   .course-number,
   .course-info {
-    color: var(--muted-text-color);
+    color: #b3b3b3;
 
     .separator {
-      color: var(--border-color);
+      color: #666;
     }
   }
 
   .course-type {
-    color: var(--link-color);
+    color: #52adc8;
   }
 
   .course-description {
-    color: var(--muted-text-color);
+    color: #b3b3b3;
   }
 
   .course-link {
-    background-color: var(--sidebar-background-color);
-    color: var(--text-color);
-    border-color: var(--border-color);
+    background-color: #2a2a2a;
+    color: #e6e6e6;
+    border-color: #444;
 
     &:hover {
-      background-color: var(--code-background-color);
+      background-color: #333;
     }
 
     &.notes {
-      background-color: var(--code-background-color);
-      color: var(--link-color);
-      border-color: var(--link-color);
+      background-color: #1a2332;
+      color: #52adc8;
+      border-color: #52adc8;
 
       &:hover {
-        background-color: var(--border-color);
+        background-color: #233040;
       }
     }
 
     &.syllabus {
-      background-color: var(--code-background-color);
-      color: var(--text-color);
-      border-color: var(--border-color);
+      background-color: #1a1f2e;
+      color: #e6e6e6;
+      border-color: #444;
 
       &:hover {
-        background-color: var(--border-color);
+        background-color: #252b3a;
       }
     }
 
     &.website {
-      background-color: var(--notice-warning-background);
-      color: var(--text-color);
-      border-color: var(--notice-warning-border);
+      background-color: #332a1a;
+      color: #e6e6e6;
+      border-color: #856404;
 
       &:hover {
         opacity: 0.8;
@@ -322,13 +331,13 @@
     }
 
     &.more-info {
-      background-color: var(--sidebar-background-color);
-      color: var(--muted-text-color);
-      border-color: var(--border-color);
+      background-color: #2a2a2a;
+      color: #b3b3b3;
+      border-color: #444;
 
       &:hover {
-        background-color: var(--code-background-color);
-        color: var(--text-color);
+        background-color: #333;
+        color: #e6e6e6;
       }
     }
   }
