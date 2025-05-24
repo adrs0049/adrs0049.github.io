@@ -1,0 +1,268 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <article class="page software-page" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
+    {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
+
+    <div class="page__inner-wrap">
+      {% unless page.header.overlay_color or page.header.overlay_image %}
+        <header>
+          {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+        </header>
+      {% endunless %}
+
+      <section class="page__content software-list" itemprop="text">
+        {{ content }}
+
+        <ul class="software-list">
+          {% for post in site.software reversed %}
+            <li class="software-entry">
+              <h3 class="software-title">
+                {{ post.title }}
+                {% if post.version %}
+                  <span class="software-version">v{{ post.version }}</span>
+                {% endif %}
+              </h3>
+
+              {% if post.description %}
+                <p class="software-description">{{ post.description }}</p>
+              {% endif %}
+
+              {% if post.features %}
+                <div class="software-features">
+                  <h4>Key Features:</h4>
+                  <ul>
+                    {% for feature in post.features %}
+                      <li>{{ feature }}</li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              {% endif %}
+
+              {% if post.technologies %}
+                <div class="software-tech">
+                  <strong>Technologies:</strong>
+                  {% for tech in post.technologies %}
+                    <span class="tech-tag">{{ tech }}</span>
+                  {% endfor %}
+                </div>
+              {% endif %}
+
+              <div class="software-links">
+                {% if post.githuburl %}
+                  <a href="{{ post.githuburl }}" class="software-link github" target="_blank">
+                    <i class="fab fa-github"></i> View on GitHub
+                  </a>
+                {% endif %}
+                {% if post.paperurl %}
+                  <a href="{{ post.paperurl }}" class="software-link paper" target="_blank">
+                    <i class="fas fa-file-pdf"></i> Related Paper
+                  </a>
+                {% endif %}
+                {% if post.docsurl %}
+                  <a href="{{ post.docsurl }}" class="software-link docs" target="_blank">
+                    <i class="fas fa-book"></i> Documentation
+                  </a>
+                {% endif %}
+                {% if post.demourl %}
+                  <a href="{{ post.demourl }}" class="software-link demo" target="_blank">
+                    <i class="fas fa-desktop"></i> Live Demo
+                  </a>
+                {% endif %}
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+
+      <footer class="page__meta">
+        {% if site.data.ui-text[site.locale].meta_label %}
+          <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
+        {% endif %}
+        {% include page__taxonomy.html %}
+      </footer>
+
+      {% if page.share %}{% include social-share.html %}{% endif %}
+    </div>
+
+    {% if site.comments.provider and page.comments %}
+      {% include comments.html %}
+    {% endif %}
+  </article>
+</div>
+
+<style>
+/* Software page specific styling */
+.software-page .software-list {
+  max-width: 100%;
+}
+
+.software-page .software-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.software-page .software-entry {
+  margin-bottom: 2.5em;
+  padding-bottom: 2.5em;
+  border-bottom: 1px solid #f2f3f3;
+}
+
+.software-page .software-entry:last-child {
+  border-bottom: none;
+}
+
+.software-page .software-title {
+  font-size: 1.3em;
+  margin: 0 0 0.5em 0;
+  line-height: 1.3;
+  color: #2e3440;
+}
+
+.software-page .software-version {
+  font-size: 0.7em;
+  font-weight: normal;
+  color: #7a8288;
+  background-color: #f2f3f3;
+  padding: 0.2em 0.5em;
+  border-radius: 3px;
+  margin-left: 0.5em;
+}
+
+.software-page .software-description {
+  margin: 0.75em 0;
+  line-height: 1.6;
+  color: #494e52;
+}
+
+.software-page .software-features {
+  margin: 1em 0;
+}
+
+.software-page .software-features h4 {
+  font-size: 1em;
+  margin: 0 0 0.5em 0;
+  color: #494e52;
+}
+
+.software-page .software-features ul {
+  margin: 0;
+  padding-left: 1.5em;
+}
+
+.software-page .software-features li {
+  margin-bottom: 0.3em;
+  color: #494e52;
+}
+
+.software-page .software-tech {
+  margin: 1em 0;
+  font-size: 0.95em;
+}
+
+.software-page .tech-tag {
+  display: inline-block;
+  padding: 0.25em 0.6em;
+  margin: 0.2em;
+  background-color: #e1ecf4;
+  color: #39739d;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+.software-page .software-links {
+  margin-top: 1.5em;
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.software-page .software-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.5em 1em;
+  font-size: 0.9em;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  border: 1px solid;
+}
+
+.software-page .software-link:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.software-page .software-link.github {
+  background-color: #24292e;
+  color: white;
+  border-color: #24292e;
+}
+
+.software-page .software-link.github:hover {
+  background-color: #1a1e22;
+}
+
+.software-page .software-link.paper {
+  background-color: #dc3545;
+  color: white;
+  border-color: #dc3545;
+}
+
+.software-page .software-link.paper:hover {
+  background-color: #c82333;
+}
+
+.software-page .software-link.docs {
+  background-color: #17a2b8;
+  color: white;
+  border-color: #17a2b8;
+}
+
+.software-page .software-link.docs:hover {
+  background-color: #138496;
+}
+
+.software-page .software-link.demo {
+  background-color: #28a745;
+  color: white;
+  border-color: #28a745;
+}
+
+.software-page .software-link.demo:hover {
+  background-color: #218838;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .software-page .software-links {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .software-page .software-link {
+    width: fit-content;
+  }
+}
+</style>
