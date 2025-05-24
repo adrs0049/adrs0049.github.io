@@ -9,7 +9,9 @@ link: "https://www.springer.com/gp/book/9783030671105"
 
 Our book on bifurcations and symmetries in non-local cell adhesion models is out!
 
-[![Book Cover](https://www.buttenschoen.ca/images/Buttenschoen-cover.png)](https://www.springer.com/gp/book/9783030671105)
+<a href="https://www.springer.com/gp/book/9783030671105">
+  <img src="/images/Buttenschoen-cover.png" alt="Book Cover" />
+</a>
 
 Available from [Springer](https://www.springer.com/gp/book/9783030671105).
 

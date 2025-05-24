@@ -139,6 +139,65 @@
 .news-archive-content,
 .news-archive-excerpt {
   line-height: 1.6;
+
+  // Control image sizes in news content
+  img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 1em auto;
+  }
+
+  // Preserve clickable images with links
+  a img {
+    transition: opacity 0.2s ease;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  // Center linked images too
+  a {
+    &:has(img) {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+    }
+  }
+
+  // Special styling for book covers or similar
+  .book-cover {
+    max-width: 150px;
+    margin: 1em auto;
+    display: block;
+  }
+}
+
+// Also apply to individual news item pages
+.page__content {
+  .news-content-image,
+  .book-cover {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 1em auto;
+  }
+
+  // Preserve clickable images in page content too
+  a img {
+    transition: opacity 0.2s ease;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  a:has(img) {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+  }
 }
 
 /* Responsive Design */
