@@ -28,11 +28,6 @@ Coming soon.
 
 ## Lab Members
 
-### Principal Investigator
-**Andreas Buttenschön, Ph.D.**
-Assistant Professor of Mathematics
-[andreas.buttenschoen@umass.edu](mailto:andreas.buttenschoen@umass.edu)
-
 ### Graduate Students
 *Positions available - see below!*
 
