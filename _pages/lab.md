@@ -22,10 +22,6 @@ behavior through:
 - **Pattern formation** in developmental biology
 - **Cell migration** in wound healing, development and cancer
 
-## Current Projects
-
-Coming soon.
-
 ## Lab Members
 
 ### Graduate Students
