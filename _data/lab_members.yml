@@ -14,7 +14,7 @@
   research: Algorithms
   website: https://nubdotdev.github.io/
   photo: /images/justin-profile.jpg
-  current: "Current: Working in industry"
+  current: "Current: Software engineer at Genesis Therapeutics"
   alumni: true
 
 - name: Shreyas Waghe
@@ -32,15 +32,16 @@
   placeholder: false
   alumni: false
 
-- name: Position Available
+- name: Sam Brambilla
+  title: REU Researcher (Summers 2024, 2025)
+  research: Collective cell migration
+  placeholder: false
+  alumni: false
+
+- name: Available
   title: PhD Student
   research: Join our team!
   placeholder: true
   icon: user-plus
   alumni: false
 
-- name: Sam Brambilla
-  title: REU Researcher (Summers 2024, 2025)
-  research: Collective cell migration
-  placeholder: false
-  alumni: false
