@@ -42,17 +42,6 @@ Motivated undergraduates can join through:
 ### Postdoctoral Fellows
 Please contact me directly to discuss potential funding opportunities.
 
-## Resources & Tools
-
-### Software Developed
-- **TDR** - Taxis-Diffusion-Reaction solver with non-local support.
-- **FunPy** - [(i)PDE toolbox](https://github.com/adrs0049/funpy) for bifurcation analysis
-- **AdhesionRandomWalk** - [Gillespie-SSA framework](https://github.com/adrs0049/AdhesionRandomWalk)
-
-### Computational Resources
-Our lab has access to high-performance computing resources for large-scale simulations.
-
-
 ## Lab Environment
 
 We maintain a collaborative environment where ideas are shared openly and
