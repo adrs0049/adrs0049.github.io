@@ -10,18 +10,25 @@
   alumni: false
 
 - name: Justin Steinman
-  title: REU Student (Summer 2024)
+  title: REU Researcher (Summer 2023)
   research: Algorithms
   website: https://nubdotdev.github.io/
-  current: "Current: Completing undergraduate degree"
+  current: "Current: Working in industry"
+  alumni: true
+
+- name: Shreyas Waghe
+  title: Undergraduate thesis (2024)
+  research: Collective cell migration
+  website: https://www.shreyasw.com/
+  photo: /images/shreyas.jpg
+  current: "Current: Working in industry"
   alumni: true
 
 # Placeholder positions - remove when filled
-- name: Position Available
+- name: Carlos Villalpando Vargas
   title: PhD Student
-  research: Join our team!
-  placeholder: true
-  icon: user-plus
+  research: Complex emerging phenomena
+  placeholder: false
   alumni: false
 
 - name: Position Available
@@ -31,9 +38,8 @@
   icon: user-plus
   alumni: false
 
-- name: Opportunities Available
-  title: Undergraduate Researcher
-  research: REU, Independent Study, Honors Thesis
-  placeholder: true
-  icon: user-plus
+- name: Sam Brambilla
+  title: REU Researcher (Summers 2024, 2025)
+  research: Collective cell migration
+  placeholder: false
   alumni: false
