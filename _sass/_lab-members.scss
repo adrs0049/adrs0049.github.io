@@ -2,15 +2,15 @@
 /* Lab members grid styling */
 .members-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1.5em;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.25em;
   margin: 2em 0;
 }
 
 .member-card {
   background: #f8f9fa;
   border-radius: 8px;
-  padding: 1.5em;
+  padding: 1.25em;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
   border: 1px solid #e9ecef;
@@ -37,9 +37,9 @@
 }
 
 .member-photo {
-  width: 120px;
-  height: 120px;
-  margin: 0 auto 1em auto;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 0.75em auto;
   overflow: hidden;
   border-radius: 50%;
   background: #e9ecef;
@@ -133,18 +133,18 @@
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .members-grid {
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: 1em;
   }
 
   .member-photo {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
   }
 }
 
 @media (max-width: 480px) {
   .members-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   }
 }
