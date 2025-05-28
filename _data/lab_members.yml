@@ -25,7 +25,6 @@
   current: "Current: Research associate at FlexCompute"
   alumni: true
 
-# Placeholder positions - remove when filled
 - name: Carlos Villalpando Vargas
   title: PhD Student
   research: Complex emerging phenomena
@@ -35,6 +34,24 @@
 - name: Sam Brambilla
   title: REU Researcher (Summers 2024, 2025)
   research: Collective cell migration
+  placeholder: false
+  alumni: false
+
+- name: Nguyen Nguyen Sy
+  title: Lee-Sip Scholar 2024
+  research: Collective cell migration
+  placeholder: false
+  alumni: true
+
+- name: Edmund Bassett
+  title: Lee-Sip Scholar 2024
+  research: Collective cell migration
+  placeholder: false
+  alumni: true
+
+- name: Sage Arias Hambleton
+  title: Lee-Sip Scholar 2025
+  research: Collective Cell Migration
   placeholder: false
   alumni: false
 
