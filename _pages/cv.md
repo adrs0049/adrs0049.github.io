@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Applied Mathematics (Mathematical Biology), University of Alberta, 2017
+* Ph.D in Applied Mathematics (Mathematical Biology), University of Alberta, 2018
 * B.S.H in Applied Mathematics with First Class Honors, University of Alberta, 2013
 * B.S. in Physics and Mathematics with Distinction, University of Alberta, 2012
 
