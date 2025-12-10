@@ -29,4 +29,4 @@ We particularly encourage focused contributions (10–25 pages) that distill key
 
 [Collection Details](https://link.springer.com/collections/jddcbajbdg)
 
-**Guest Editors:** Andreas Buttenschön, Calina Copos, and Dietmar Oelz
+**Guest Editors:** Andreas Buttenschön, [Calina Copos](https://calinacopos.github.io/), and [Dietmar Oelz](https://people.smp.uq.edu.au/DietmarOelz/)
