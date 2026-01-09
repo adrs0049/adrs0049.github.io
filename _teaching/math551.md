@@ -5,7 +5,7 @@ type: "Undergraduate course"
 permalink: /teaching/math551
 venue: "University of Massachusetts Amherst, Department of Mathematics and Statistics"
 excerpt: 'Introduction to Scientific Computing.'
-date: 2022-09-01
+date: 2026-01-01
 course_numer: 'MATH 551'
 semester: ['Fall 2022', 'Spring 2026']
 location: "Amherst, MA, USA"

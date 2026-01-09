@@ -5,7 +5,7 @@ type: "Graduate course"
 permalink: /teaching/math725
 venue: "University of Massachusetts Amherst, Department of Mathematics and Statistics"
 excerpt: 'MATH 725 (Applied) Functional Analysis'
-date: 2025-01-01
+date: 2026-01-01
 location: "Amherst, MA, USA"
 course_numer: 'MATH 725'
 semester: ['Spring 2025', 'Spring 2026']
