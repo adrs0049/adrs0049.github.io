@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Applied Mathematics (Mathematical Biology), University of Alberta, 2017
+* Ph.D in Applied Mathematics (Mathematical Biology), University of Alberta, 2018
 * B.S.H in Applied Mathematics with First Class Honors, University of Alberta, 2013
 * B.S. in Physics and Mathematics with Distinction, University of Alberta, 2012
 
@@ -75,6 +75,18 @@ Approaches" (19w5080).
 
 Conference organization
 =======
+
+* [Quantitative Modeling Insights for Cytoskeleton Dynamics and Cell Polarity](https://www.ascb.org/cellbio2025/program/schedule/#day-4). December 2025. Minisymposium.
+American Socienty of Cell Biology Meeting, Philadelphia, Pennsylvania.
+  * Co-organizer: [Calina Copos](https://calinacopos.github.io/), [Anna Nelson](https://annacnelson.github.io/), and [Veronica Ciocanel](https://sites.math.duke.edu/~ciocanel/).
+
+* [Mechanistic modeling from inter- to intra-cellular phenomena](https://2025.smb.org/MS07/MS-CDEV-02.html). July 2025. Minisymposium.
+Society of Mathematical Biology Annual meeting, Edmonton, Alberta.
+  * Co-organizer: [Calina Copos](https://calinacopos.github.io/).
+
+* [Mechanistic modeling from inter- to intra-cellular phenomena](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=79295). June 2024. Minisymposium.
+SIAM Life Sciences 2024, Portland, Oregon.
+  * Co-organizer: [Calina Copos](https://calinacopos.github.io/), Ying Zhang.
 
 * [Data-driven, modeling, and topological techniques in cell and developmental biology](https://2023.smb.org/CDEV/CDEV-1-MS03.html). July 2023. Minisymposium.
 Society of Mathematical Biology Annual meeting, OSU, Columbus, Ohio.

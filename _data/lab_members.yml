@@ -9,6 +9,12 @@
   website: /
   alumni: false
 
+- name: Ryan Thiessen
+  title: Marschall-Stone VAP
+  research: Non-local PDEs
+  website: https://www.umass.edu/mathematics-statistics/about/directory/ryan-thiessen
+  alumni: false
+
 - name: Justin Steinman
   title: REU Researcher (Summer 2023)
   research: Graph-Based preconditioners
@@ -54,7 +60,7 @@
   title: Lee-Sip Scholar 2025
   research: Collective Cell Migration
   placeholder: false
-  alumni: false
+  alumni: true
 
 - name: Available
   title: PhD Student
