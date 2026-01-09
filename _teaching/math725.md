@@ -8,7 +8,7 @@ excerpt: 'MATH 725 (Applied) Functional Analysis'
 date: 2026-01-01
 location: "Amherst, MA, USA"
 course_numer: 'MATH 725'
-semester: ['Spring 2025', 'Spring 2026']
+semesters: ['Spring 2025', 'Spring 2026']
 notesurl: 'https://www.buttenschoen.ca/MATH725'
 ---
 
