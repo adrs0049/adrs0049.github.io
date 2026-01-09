@@ -1,5 +1,5 @@
 ---
-title: "MATH 725 (Applied) Functional Analysis"
+title: "(Applied) Functional Analysis (MATH 725)"
 collection: teaching
 type: "Graduate course"
 permalink: /teaching/math725
@@ -8,7 +8,7 @@ excerpt: 'MATH 725 (Applied) Functional Analysis'
 date: 2025-01-01
 location: "Amherst, MA, USA"
 course_numer: 'MATH 725'
-semester: 'Spring 2025'
+semester: ['Spring 2025', 'Spring 2026']
 notesurl: 'https://www.buttenschoen.ca/MATH725'
 ---
 

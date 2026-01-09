@@ -1,5 +1,5 @@
 ---
-title: "MATH 690CB Mathematical Cell Biology"
+title: "Mathematical Cell Biology (MATH 690CB)"
 collection: teaching
 type: "Graduate course"
 permalink: /teaching/math690

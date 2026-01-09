@@ -1,5 +1,5 @@
 ---
-title: "MATH 456 Mathematical Modeling (Math-Bio)"
+title: "Mathematical Modelling in Biology (MATH 456)"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/math456

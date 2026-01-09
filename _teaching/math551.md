@@ -7,8 +7,9 @@ venue: "University of Massachusetts Amherst, Department of Mathematics and Stati
 excerpt: 'Introduction to Scientific Computing.'
 date: 2022-09-01
 course_numer: 'MATH 551'
-semester: 'Fall 2022'
+semester: ['Fall 2022', 'Spring 2026']
 location: "Amherst, MA, USA"
+notesurl: 'https://www.buttenschoen.ca/MATH545'
 ---
 
 MATH551 is an introduction to numerical analysis. The topics we will discuss are:
@@ -22,4 +23,5 @@ MATH551 is an introduction to numerical analysis. The topics we will discuss are
 
 ## Lecture Notes
 
-Detailed lecture notes will be available.
+1. [Link to course notes](https://www.buttenschoen.ca/MATH551). Not online yet but soon.
+2. For homework and announcements please log in to [canvas](https://umamherst.instructure.com/).
