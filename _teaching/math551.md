@@ -9,7 +9,7 @@ date: 2026-01-01
 course_numer: 'MATH 551'
 semesters: ['Fall 2022', 'Spring 2026']
 location: "Amherst, MA, USA"
-notesurl: 'https://www.buttenschoen.ca/MATH545'
+notesurl: 'https://www.buttenschoen.ca/MATH551'
 ---
 
 MATH551 is an introduction to numerical analysis. The topics we will discuss are:
