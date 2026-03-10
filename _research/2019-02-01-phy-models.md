@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Physics-based models of collective cell migration"
 excerpt: "Agent-based modeling approaches for multicellular systems.
 Currently expanding this page with detailed information about our
