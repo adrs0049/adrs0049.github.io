@@ -25,7 +25,7 @@ experimentation alone can uncover.
 
 We particularly encourage focused contributions (10–25 pages) that distill key insights through systematic analysis spanning intracellular signaling, cytoskeletal mechanics, directed migration, and collective tissue dynamics.
 
-**Submission Deadline:** June 30, 2026
+**Submission Deadline:** December 31, 2026
 
 [Collection Details](https://link.springer.com/collections/jddcbajbdg)
 
