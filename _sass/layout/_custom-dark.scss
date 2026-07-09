@@ -438,3 +438,31 @@
     color: #b3b3b3 !important;
   }
 }
+
+/* News feed type badges — dark mode */
+[data-theme="dark"] {
+  .news-icon--preprint {
+    background-color: rgba(255, 107, 107, 0.14) !important;
+    color: #ff6b6b !important;
+  }
+
+  .news-icon--paper {
+    background-color: rgba(82, 173, 200, 0.16) !important;
+    color: #6fc3da !important;
+  }
+
+  .news-icon--accepted {
+    background-color: rgba(95, 208, 160, 0.14) !important;
+    color: #5fd0a0 !important;
+  }
+
+  .news-icon--announcement {
+    background-color: rgba(240, 180, 41, 0.14) !important;
+    color: #f0b429 !important;
+  }
+
+  .news-icon--teaching {
+    background-color: rgba(160, 168, 180, 0.14) !important;
+    color: #a0a8b4 !important;
+  }
+}

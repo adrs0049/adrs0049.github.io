@@ -4,16 +4,27 @@
 <div class="news-section">
   <h2>Latest News</h2>
 
-  {% assign recent_news = site.news | sort: 'date' | reverse | limit: 5 %}
+  {% assign recent_news = site.news | sort: 'date' | reverse %}
 
   {% if recent_news.size > 0 %}
     <ul class="news-list">
-      {% for news_item in recent_news %}
+      {% for news_item in recent_news limit: 5 %}
         <li class="news-item">
           {% if news_item.image %}
             <div class="news-image">
               <img src="{% if news_item.image contains '://' %}{{ news_item.image }}{% else %}{{ news_item.image | prepend: '/images/' | prepend: base_path }}{% endif %}"
                    alt="{{ news_item.title }}" />
+            </div>
+          {% elsif news_item.icon %}
+            {% case news_item.icon %}
+              {% when 'preprint' %}{% assign badge_type = 'preprint' %}{% assign badge_glyph = 'ai ai-arxiv' %}
+              {% when 'accepted' %}{% assign badge_type = 'accepted' %}{% assign badge_glyph = 'fas fa-file-circle-check' %}
+              {% when 'announcement' %}{% assign badge_type = 'announcement' %}{% assign badge_glyph = 'fas fa-bullhorn' %}
+              {% when 'teaching' %}{% assign badge_type = 'teaching' %}{% assign badge_glyph = 'fas fa-chalkboard-user' %}
+              {% else %}{% assign badge_type = 'paper' %}{% assign badge_glyph = 'fas fa-book-open' %}
+            {% endcase %}
+            <div class="news-icon news-icon--{{ badge_type }}" aria-hidden="true">
+              <i class="{{ badge_glyph }}"></i>
             </div>
           {% endif %}
 

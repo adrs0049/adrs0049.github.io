@@ -3,7 +3,7 @@ title: "PUBLISHED: Chirality in Confined Cell Pairs"
 date: 2026-06-16
 category: "Publication"
 excerpt: "Together with Calina Copos (NEU) and collaborators, our paper on how polarization and confinement generate cellular chirality was published in the Biophysical Journal."
-image: "paper-icon.png"
+icon: paper
 link: "https://www.sciencedirect.com/science/article/pii/S000634952600442X"
 ---
 

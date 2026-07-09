@@ -3,7 +3,7 @@ title: "SPECIAL ISSUE: Mathematical Modeling of Cell Motility Across Scales"
 date: 2025-12-09
 category: "Announcement"
 excerpt: "Now open for submissions to the Journal of Mathematical Biology. Guest editors: Andreas Buttenschön, Calina Copos, and Dietmar Oelz."
-image: "paper-icon.png"
+icon: announcement
 link: "https://link.springer.com/collections/jddcbajbdg"
 ---
 

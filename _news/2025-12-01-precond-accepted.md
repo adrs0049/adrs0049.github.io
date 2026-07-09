@@ -3,7 +3,7 @@ title: "ACCEPTED: Graph-Based Preconditioners for Agent-Based Models"
 date: 2025-12-01
 category: "Research"
 excerpt: "Together with REU student Justin Steinman, our paper on support graph preconditioners for cell-based models was accepted in the SIAM Journal on Numerical Analysis."
-image: "paper-icon.png"
+icon: accepted
 link: "https://arxiv.org/abs/2410.04512"
 ---
 

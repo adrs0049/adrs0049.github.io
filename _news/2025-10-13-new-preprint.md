@@ -3,7 +3,7 @@ title: "PREPRINT: Competing forces of polarization and confinement generate cell
 date: 2025-10-13
 category: "Research"
 excerpt: "New preprint on chirality in cell doublets"
-image: "paper-icon.png"
+icon: preprint
 link: "https://arxiv.org/abs/2510.11642"
 ---
 

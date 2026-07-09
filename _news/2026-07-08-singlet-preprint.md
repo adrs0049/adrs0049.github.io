@@ -3,7 +3,7 @@ title: "PREPRINT: Directional bias of a single polarized cell under confinement"
 date: 2026-07-08
 category: "Research"
 excerpt: "Together with Calina Copos (NEU), we posted a pre-print on chirality in a confined single cell."
-image: "paper-icon.png"
+icon: preprint
 link: "https://arxiv.org/abs/2607.07578"
 ---
 

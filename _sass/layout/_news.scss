@@ -54,6 +54,53 @@
   }
 }
 
+/* Type badge shown when a news item has no explicit image.
+   Driven by the `icon:` front-matter field via news-list.html. */
+.news-icon {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7em;
+  line-height: 1;
+
+  /* default = published paper (teal) */
+  background-color: rgba(82, 173, 200, 0.12);
+  color: #52adc8;
+
+  i {
+    line-height: 1;
+  }
+
+  &.news-icon--preprint {
+    background-color: rgba(179, 27, 27, 0.10);
+    color: #b31b1b;
+  }
+
+  &.news-icon--paper {
+    background-color: rgba(82, 173, 200, 0.12);
+    color: #52adc8;
+  }
+
+  &.news-icon--accepted {
+    background-color: rgba(46, 139, 87, 0.12);
+    color: #2e8b57;
+  }
+
+  &.news-icon--announcement {
+    background-color: rgba(199, 127, 10, 0.12);
+    color: #c77f0a;
+  }
+
+  &.news-icon--teaching {
+    background-color: rgba(107, 114, 128, 0.12);
+    color: #6b7280;
+  }
+}
+
 .news-date {
   min-width: 120px;
   font-size: 0.9em;
@@ -207,10 +254,15 @@
     gap: 0.75em;
   }
 
-  .news-image {
+  .news-image,
+  .news-icon {
     align-self: flex-start;
     width: 50px;
     height: 50px;
+  }
+
+  .news-icon {
+    font-size: 1.45em;
   }
 
   .news-date {
@@ -224,8 +276,13 @@
     gap: 0.5em;
   }
 
-  .news-image {
+  .news-image,
+  .news-icon {
     width: 40px;
     height: 40px;
+  }
+
+  .news-icon {
+    font-size: 1.2em;
   }
 }
