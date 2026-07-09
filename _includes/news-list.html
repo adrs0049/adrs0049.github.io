@@ -20,6 +20,7 @@
               {% when 'preprint' %}{% assign badge_type = 'preprint' %}{% assign badge_glyph = 'ai ai-arxiv' %}
               {% when 'accepted' %}{% assign badge_type = 'accepted' %}{% assign badge_glyph = 'fas fa-file-circle-check' %}
               {% when 'announcement' %}{% assign badge_type = 'announcement' %}{% assign badge_glyph = 'fas fa-bullhorn' %}
+              {% when 'award' %}{% assign badge_type = 'award' %}{% assign badge_glyph = 'fas fa-seedling' %}
               {% when 'teaching' %}{% assign badge_type = 'teaching' %}{% assign badge_glyph = 'fas fa-chalkboard-user' %}
               {% else %}{% assign badge_type = 'paper' %}{% assign badge_glyph = 'fas fa-book-open' %}
             {% endcase %}
