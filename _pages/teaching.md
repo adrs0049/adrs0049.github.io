@@ -9,7 +9,7 @@ I am passionate about teaching applied mathematics and its applications to biolo
 
 ## Teaching Philosophy
 
-I believe in making mathematics accessible and relevant by:
+I believe in making mathematics accessible and relevant through:
 
 - **Connecting theory to applications** - Every mathematical concept is motivated by real-world problems
 - **Active learning** - Students learn best by doing, not just listening
