@@ -6,7 +6,7 @@ permalink: /teaching/math456
 venue: "University of Massachusetts Amherst, Department of Mathematics and Statistics"
 excerpt: 'MATH 456 Mathematical Modeling'
 course_numer: 'MATH 456'
-semester: 'Fall 2025'
+semester: ['Fall 2025', 'Fall 2026']
 date: 2025-05-10
 location: "Amherst, MA, USA"
 ---
