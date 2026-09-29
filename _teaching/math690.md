@@ -6,7 +6,7 @@ permalink: /teaching/math690
 venue: "University of Massachusetts Amherst, Department of Mathematics and Statistics"
 excerpt: 'MATH 690CB Mathematical Cell Biology'
 course_numer: 'MATH 690CB'
-semester: ['Fall 2024', 'Fall 2026']
+semesters: ['Fall 2024', 'Fall 2026']
 date: 2023-09-01
 location: "Amherst, MA, USA"
 ---
