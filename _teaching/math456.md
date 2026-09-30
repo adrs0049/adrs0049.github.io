@@ -7,7 +7,7 @@ venue: "University of Massachusetts Amherst, Department of Mathematics and Stati
 excerpt: 'MATH 456 Mathematical Modeling'
 course_numer: 'MATH 456'
 semesters: ['Fall 2025', 'Fall 2026']
-date: 2025-05-10
+date: 2026-09-10
 location: "Amherst, MA, USA"
 ---
 

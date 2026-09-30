@@ -7,7 +7,7 @@ venue: "University of Massachusetts Amherst, Department of Mathematics and Stati
 excerpt: 'MATH 690CB Mathematical Cell Biology'
 course_numer: 'MATH 690CB'
 semesters: ['Fall 2024', 'Fall 2026']
-date: 2023-09-01
+date: 2026-09-01
 location: "Amherst, MA, USA"
 ---
 
