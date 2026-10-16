@@ -9,6 +9,7 @@ course_numer: 'MATH 456'
 semesters: ['Fall 2025', 'Fall 2026']
 date: 2026-09-10
 location: "Amherst, MA, USA"
+notesurl: 'https://www.buttenschoen.ca/MATH456'
 ---
 
 <br/><img src='/images/math456_ad.png'><br/>
